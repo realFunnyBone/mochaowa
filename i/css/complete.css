@@ -2633,7 +2633,7 @@ body {
 /* Navigation related styles */
 
 #mainNavigation {
-	background: white url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navigation_blue.png) bottom left repeat-x;
+	background: white url(../images/backgrounds/navigation_yellow.png) bottom left repeat-x;
 	border-bottom: 1px solid #7FD7F7;
 	min-height: 31px;
 }
