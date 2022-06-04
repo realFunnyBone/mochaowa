@@ -2229,7 +2229,7 @@ table.wideTable {
 	width: 100%;
 }
 .hiLite {
-	color: #00aff0;
+	color: #f0a600;
 }
 #content .flowContent p.message {
 	margin-top: 0 !important;
@@ -2562,7 +2562,7 @@ body {
 }
 	#headerNavigation a {
 		margin: 0 4px;
-		color: #00AFF0;
+		color: #f0a600;
 		text-decoration: none;
 	}
 	#headerNavigation a:hover {
