@@ -1,0 +1,71 @@
+div #topSplash {
+	position: relative;
+	height: 424px;
+	margin: 10px auto 0 auto;
+	width: 960px;
+	background: url(file:///C:/Users/Aidan/Documents/GitHub/mochaowa/i/images/photos/index_girls.jpg) 20px 0px no-repeat;
+}
+
+div #splashContent {
+	position: relative;
+	padding: 40px 20px 20px 635px;
+}
+
+#splashContent.onTop {
+	z-index: 99;
+}
+
+h1 {
+    font-weight: normal !important;
+}
+
+#spyLink {
+	display: block;
+	position: absolute;
+	bottom: 65px;
+	right: 20px;
+	width: 45px;
+	height: 50px;
+}
+
+.clouds {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+div.indexHeader {
+	margin: 4px 0 0 0;
+	background-color: #f0ce00;
+}
+
+div.indexHeader h1 {
+	color: #ffffff;
+	font-size: 24px;
+}
+
+#footer {
+	margin:47px 0pt 0pt !important;
+}
+/*
+     FILE ARCHIVED ON 09:54:40 Mar 05, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:35:34 Jun 04, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 141.046
+  exclusion.robots: 0.151
+  exclusion.robots.policy: 0.145
+  cdx.remote: 0.056
+  esindex: 0.009
+  LoadShardBlock: 93.355 (3)
+  PetaboxLoader3.datanode: 114.869 (4)
+  CDXLines.iter: 18.631 (3)
+  load_resource: 144.486
+  PetaboxLoader3.resolve: 83.632
+*/
