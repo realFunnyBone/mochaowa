@@ -1,0 +1,99 @@
+/* US styles */ 
+
+div.customLinks a:link {
+color:#0181E3;
+text-decoration:underline;
+}
+
+div.customLinks a:hover {
+color:#3A9EEB;
+text-decoration:underline;
+}
+
+div.customLinks a:visited {
+color:#3A9EEB;
+text-decoration:underline;
+}
+
+div #index-topSplash {
+	position: relative;
+	height: 424px;
+	margin: 10px auto 0 auto;
+	width: 960px;
+	background: url(/web/20090305095531im_/http://c.skype.com/i/images/photos/index_baby.jpg) 20px 0px no-repeat;
+}
+
+#content #paddedContent .helloagainSplit .toGo {
+	background: url(/web/20090305095531im_/http://c.skype.com/i/images/icons/skypetogo_phone_96x96v2.png) no-repeat 40px 5px;
+	height: 100%;
+}
+
+#content #paddedContent .helloagainSplit .hqVideo {
+	background: url(/web/20090305095531im_/http://c.skype.com/i/images/promo/ane/logitechhqwebcam.png) no-repeat 70px 5px;
+	height: 100%;
+}
+
+#content #paddedContent .helloagainSplit .cheapCalls {
+	background:transparent url(/web/20090305095531im_/http://c.skype.com/i/images/icons/cheapcalls_ho_white.png) no-repeat scroll 20px 5px;
+	height:100%;
+}
+
+#content #paddedContent .helloagainSplit .skypeCredit {
+	background:transparent url(/web/20090305095531im_/http://c.skype.com/i/images/icons/skypecredit_96x96_white.png) no-repeat scroll 40px 5px;
+	height:100%;
+}
+
+#content #paddedContent .helloagainSplit h2, 
+#content #paddedContent .helloagainSplit p {
+padding-left:20px;
+padding-right:20px;
+}
+
+/* Unnecessary dupe?
+div.additionalInformation {
+background:#E5F6FD none repeat scroll 0%;
+border-bottom:1px solid #7FD7F7;
+border-top:1px solid #7FD7F7;
+overflow:hidden;
+padding:15px 0pt;
+width:100%;
+}
+*/
+
+div.additionalInformation div#leftBlock {
+float:left;
+width:1px;
+}
+
+div.additionalInformation div#rightBlock {
+float:left;
+width:600px;
+}
+
+#sidebarContent p.noEmergency {
+background:white url(/web/20090305095531im_/http://c.skype.com/i/images/icons/noemergency.png) no-repeat scroll 0pt 20px !important;
+line-height:1.1em;
+margin:0pt !important;
+padding:55px 0pt 0pt !important;
+}
+/*
+     FILE ARCHIVED ON 09:55:31 Mar 05, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:53:40 Jun 04, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 85.605
+  exclusion.robots: 0.159
+  exclusion.robots.policy: 0.154
+  cdx.remote: 0.056
+  esindex: 0.008
+  LoadShardBlock: 60.454 (3)
+  PetaboxLoader3.datanode: 72.846 (4)
+  CDXLines.iter: 13.269 (3)
+  load_resource: 93.185
+  PetaboxLoader3.resolve: 68.271
+*/
