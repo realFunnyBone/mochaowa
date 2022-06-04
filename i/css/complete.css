@@ -891,7 +891,7 @@ span.button a.green:hover {
 
 span.button a.green.skype {
     padding: 0 0 0 40px;
-    background: #87C80A url(../i/images/buttons/green/green_comp_skype_left.png) left top no-repeat;
+    background: #87C80A url(../images/buttons/green/green_comp_skype_left.png) left top no-repeat;
 }
 span.button a.green.skype:hover {
     padding: 0 0 0 40px;
