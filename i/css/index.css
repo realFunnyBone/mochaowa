@@ -3,7 +3,7 @@ div #topSplash {
 	height: 424px;
 	margin: 10px auto 0 auto;
 	width: 960px;
-	background: url(file:///C:/Users/Aidan/Documents/GitHub/mochaowa/i/images/photos/index_girls.jpg) 20px 0px no-repeat;
+	background: url(../mochaowa/i/images/photos/index_girls.jpg) 20px 0px no-repeat;
 }
 
 div #splashContent {
