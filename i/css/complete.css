@@ -2675,10 +2675,10 @@ body {
 			background: #f7d87f;
 		}
 		#mainNavigation li.active, #mainNavigation li.hover {
-			background: #f7d87f url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
+			background: #f7d87f url(../i/images/backgrounds/navi_top_left.png) top left no-repeat;
 		}
 		#mainNavigation li.active strong, #mainNavigation li.hover a {
-			background: #f7d87f url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) top right no-repeat;
+			background: #f7d87f url(../i/images/backgrounds/navi_top_right.png) top right no-repeat;
 		}
 		#mainNavigation li.hover a {
 		    color: white;
