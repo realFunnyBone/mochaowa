@@ -1938,8 +1938,8 @@ p.message span.deEmphasize {
 }
 div.additionalInformation {
     background: #E5F6FD;
-    border-bottom: 1px solid #7FD7F7;
-    border-top: 1px solid #7FD7F7;
+    border-bottom: 1px solid #f7d87f;
+    border-top: 1px solid #f7d87f;
     padding: 15px 0;
     overflow: hidden;
 	width: 100%;
@@ -1947,8 +1947,8 @@ div.additionalInformation {
 
 div.thinBlueBox {
     background: #E5F6FD;
-    border-bottom: 1px solid #7FD7F7;
-    border-top: 1px solid #7FD7F7;
+    border-bottom: 1px solid #f7d87f;
+    border-top: 1px solid #f7d87f;
     overflow: hidden;
     padding-right: 10px;
 }
@@ -2175,7 +2175,7 @@ table.listTable {
 	margin-top: 0.79em;
 }
 table.listTable th {
-	border-bottom: 1px solid #7fd7f7;
+	border-bottom: 1px solid #f7d87f;
 	font-weight: bold;
 	padding: 8px 5px 9px 5px;
 }
@@ -2552,7 +2552,7 @@ body {
 	#skypeLogo span {
 		display: block;
 		float: left;
-		color: #7FD7F7;
+		color: #f7d87f;
 	}
 #headerNavigation {
 	float: right;
@@ -2597,7 +2597,7 @@ body {
 		text-decoration: underline;
 	}
 	#footer strong {	
-		color: #7FD7F7;
+		color: #f7d87f;
 		margin: 0 4px;
 	}
 #userPreferencesForm {
@@ -2634,7 +2634,7 @@ body {
 
 #mainNavigation {
 	background: white url(../images/backgrounds/navigation_yellow.png) bottom left repeat-x;
-	border-bottom: 1px solid #7FD7F7;
+	border-bottom: 1px solid #f7d87f;
 	min-height: 31px;
 }
 * html #mainNavigation {
@@ -2672,13 +2672,13 @@ body {
 		}
 		#mainNavigation li.active, #mainNavigation li.active a, #mainNavigation li.active strong {
 			color: white;
-			background: #7FD7F7;
+			background: #f7d87f;
 		}
 		#mainNavigation li.active, #mainNavigation li.hover {
-			background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
+			background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
 		}
 		#mainNavigation li.active strong, #mainNavigation li.hover a {
-			background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) top right no-repeat;
+			background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) top right no-repeat;
 		}
 		#mainNavigation li.hover a {
 		    color: white;
@@ -2697,13 +2697,13 @@ body {
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.active,
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.hover {
 		    border: none;
-			background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
+			background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
 	    }
 
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.active strong,
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.hover a {
     		padding: 8px 15px 4px 8px;
-			background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right_ribbon.png) top right no-repeat;
+			background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right_ribbon.png) top right no-repeat;
         }
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.active a {
 		    padding: 0;
@@ -2720,12 +2720,12 @@ body {
     	    }
     		#mainNavigation ul.shopWithGift li#main-menu-shop.active,
     		#mainNavigation ul.shopWithGift li#main-menu-shop.hover {
-              background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left_gift.png) no-repeat top left;
+              background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left_gift.png) no-repeat top left;
     	    }
 
     		#mainNavigation ul.shopWithGift li#main-menu-shop.active strong,
     		#mainNavigation ul.shopWithGift li#main-menu-shop.hover a {
-/*              background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) no-repeat top right;*/
+/*              background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) no-repeat top right;*/
             }
     		#mainNavigation ul.shopWithGift li#main-menu-shop.active a {
     		    padding: 0;
@@ -2762,7 +2762,7 @@ body {
 			text-decoration: none;
 		}
 		#subNavigation li strong {	
-			color: #7FD7F7;
+			color: #f7d87f;
 		}
 
 /* TODO: Conditions go somewhere else? */
