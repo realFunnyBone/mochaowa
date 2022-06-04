@@ -1,0 +1,2858 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	background: transparent;
+}
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+body {
+	font-size: 14px;
+	line-height: 1.357em; /* 19px */
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-size: 1em; /* 14px */
+	line-height: 1.357em;
+	margin: 0 0 1.357em 0;
+	color: #2C2C2C;
+}
+ul,
+ol {
+	margin: 0 0 1.357em 0;
+}
+.contentTable {
+	margin: 0 0 1.357em 0;
+}
+.contentTable td {
+	padding: 0 20px;
+}
+p.small {
+	font-size: 0.786em; /* 11px */
+	line-height: 1.727em;
+	margin-bottom: 1.727em;
+	color: #999;
+}
+
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+
+a {
+	color: #0181E3;
+}
+a:hover {
+    color: #3a9eeb;
+}
+a:visited {
+    color: #62a8f0;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+h1 {
+	font-size: 2.462em; /* 32px */
+	line-height: 1.19em;
+	margin-bottom: 15px;
+	letter-spacing: -0.03em;
+	color: #525252;
+}
+h1.products {
+	color: #afb4b4;
+	margin: 22px 0 0 0;
+	line-height: 100%;
+}
+h2 {
+	font-size: 1.286em; /* 18px */
+	line-height: 1.056em; /* 19(px) : 18(px) =   1.056(em) */
+	padding: 9px 0 10px 0; /* was margin: 9px 0 10px 0; but changed beacuse of 19px + 9px case */
+	color: #2C2C2C;
+}
+h2.products {
+	padding: 0 0 10px 0;
+	line-height: 100%;
+}
+h3, h4, h5, h6  {
+	/* font-family: "Lucida Grande", Calibri, Verdana, Geneva, Tahoma, sans-serif; */
+	font-size: 1em; /* 14px */
+	line-height: 1.357em;
+	margin: 0;
+	color: black;
+}
+
+sup {
+	font-size: 0.85em;
+	vertical-align: super;
+}
+sub {
+	font-size: 0.85em;
+	vertical-align: sub;
+}
+
+.floatl {
+	float: left;
+}
+.floatr {
+	float: right;
+}
+.clearer {
+	clear: both;
+	font: 1px/1px monospace;
+	height: 1px;
+	width: 1px;
+}
+.clear {
+	clear: both;
+}
+div.clear {
+    clear: both;
+    overflow: hidden;
+}
+div.clearLine {
+	clear: both;
+	height: 19px;
+}
+
+div.clearLineLeft {
+	clear: left;
+	height: 19px;
+}
+
+div.clearLineRight {
+	clear: right;
+	height: 19px;
+}
+/* Grid spliting and containers */
+
+#container {
+	width: 960px;
+	margin: -37px auto 0 auto;
+	overflow: hidden;
+}
+
+/* Grid for pages with a sidebar: 700 content + 240 sideabar */
+#container.sidebar {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/sidebar_end.png) no-repeat 689px bottom;
+	margin-bottom: 30px;
+}
+#container #content {
+	padding: 0;
+}
+
+#container #content.wide {
+	padding: 45px 0;
+}
+
+#container.noCloud {
+	margin-top: 0 !important;
+}
+#container.sidebar.noSubmenu {
+	margin-top: 30px !important;
+}
+div.default {
+	margin: 30px auto 0 auto !important;
+}
+#container.sidebar #content {
+	width: 720px;
+	float: left;
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/sidebar_begin.png) no-repeat 689px top;
+	padding: 0;
+}
+#container.sidebar #sidebar {
+	width: 240px;
+	float: right;
+}
+#content #paddedContent { /* So we can have backgrounds outside the 20px left margin */
+	padding: 0 30px 0 0;  /* was 0 30px 0 10px before */
+}
+#paddedContent .contentSplit {
+	overflow: visible;
+	clear: both;
+}
+#paddedContent .contentSplit .leftColumn,
+#paddedContent .contentSplit .rightColumn {
+	width: 335px;
+	overflow: visible;
+}
+#paddedContent .contentSplit .leftColumn {
+	float: left;
+	padding-left: 5px;
+	margin-left: -5px;
+}
+#paddedContent .contentSplit .rightColumn {
+	float: right;
+	padding-left: 5px;
+	margin-left: -5px;
+}
+#paddedContent .contentSplit .leftQuarter,
+#paddedContent .contentSplit .rightQuarter {
+	width: 160px;
+}
+#paddedContent .contentSplit .leftQuarter {
+	float: left;
+}
+#paddedContent .contentSplit .rightQuarter {
+	float: right;
+}
+#paddedContent .thirdsColumnsLeft {
+	width: 215px;
+	float: left;
+	display: inline;
+	padding-left: 5px;
+	margin-left: -5px;
+}
+#paddedContent .thirdsColumnsRight {
+	width: 220px;
+	float: right;
+	display: inline;
+}
+#paddedContent .wide {
+	width: 455px !important;
+	padding-left: 5px;
+	margin-left: -5px;
+}
+
+#sidebarIllustration {
+	position: relative;
+	width: 270px;
+	left: 50%;
+	margin-left: 207px;
+	text-align: right;
+	z-index: 9;
+	margin-top: -31px;
+	margin-bottom: -31px;
+	height: 70px;
+}
+
+body.noSubmenu #sidebarIllustration {
+	position: relative;
+	width: 270px;
+	left: 50%;
+	margin-left: 207px;
+	text-align: right;
+	z-index: 9;
+	margin-top: 0;
+	margin-bottom: -31px;
+	height: 70px;
+}
+
+div.fourColumnSplit {
+    overflow: hidden;
+    width: 100%;
+}
+    div.fourColumnSplit div.column {
+        float: left;
+        width: 172px;
+    }
+    
+div.threeColumnSplit {
+    overflow: hidden;
+    width: 100%;
+}
+    div.threeColumnSplit div.column {
+        float: left;
+        width: 230px;
+    }
+    
+    div.threeColumnSplit div.column p.columnIcon {
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    div.threeColumnSplit div.column p.columnIcon.high {
+        height: 120px;
+    }    
+    
+    div.threeColumnSplit div.column p.columnIcon img {
+        margin-left: -5px;
+    }
+    
+        div.threeColumnSplit div.column p.columnIcon img.noMargin {
+            margin-left: 0;
+        }
+
+/* Development grip */
+div#grid {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/_grid.png);
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.flag  {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 11px;
+    line-height: 11px;
+    font: 1px monospace;
+    background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/flags/flags_matrix.png);
+    margin: 2px 4px 2px 0;
+}
+
+/* experimental img version */
+img.flag {
+    display: inline;
+    float: none;
+    width: 16px;
+    height: 11px;
+    font: 1px monospace;
+    background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/flags/flags_matrix.png);
+    margin: 0;    
+}
+
+ 
+.flag.AD { background-position:-16px -44px; }
+.flag.AE { background-position:-16px -55px; }
+.flag.AF { background-position:-16px -66px; }
+.flag.AG { background-position:-16px -77px; }
+.flag.AI { background-position:-16px -99px; }
+.flag.AL { background-position:-16px -132px; }
+.flag.AM { background-position:-16px -143px; }
+.flag.AN { background-position:-16px -154px; }
+.flag.AO { background-position:-16px -165px; }
+.flag.AQ { background-position:-16px -187px; }
+.flag.AR { background-position:-16px -198px; }
+.flag.AS { background-position:-16px -209px; }
+.flag.AT { background-position:-16px -220px; }
+.flag.AU { background-position:-16px -231px; }
+.flag.AW { background-position:-16px -253px; }
+.flag.AX { background-position:-16px -264px; }
+.flag.AZ { background-position:-16px -286px; }
+.flag.BA { background-position:-32px -11px; }
+.flag.BB { background-position:-32px -22px; }
+.flag.BD { background-position:-32px -44px; }
+.flag.BE { background-position:-32px -55px; }
+.flag.BF { background-position:-32px -66px; }
+.flag.BG { background-position:-32px -77px; }
+.flag.BH { background-position:-32px -88px; }
+.flag.BI { background-position:-32px -99px; }
+.flag.BJ { background-position:-32px -110px; }
+.flag.BM { background-position:-32px -143px; }
+.flag.BN { background-position:-32px -154px; }
+.flag.BO { background-position:-32px -165px; }
+.flag.BR { background-position:-32px -198px; }
+.flag.BS { background-position:-32px -209px; }
+.flag.BT { background-position:-32px -220px; }
+.flag.BV { background-position:-32px -242px; }
+.flag.BW { background-position:-32px -253px; }
+.flag.BY { background-position:-32px -275px; }
+.flag.BZ { background-position:-32px -286px; }
+.flag.CA { background-position:-48px -11px; }
+.flag.CC { background-position:-48px -33px; }
+.flag.CD { background-position:-48px -44px; }
+.flag.CF { background-position:-48px -66px; }
+.flag.CG { background-position:-48px -77px; }
+.flag.CH { background-position:-48px -88px; }
+.flag.CI { background-position:-48px -99px; }
+.flag.CK { background-position:-48px -121px; }
+.flag.CL { background-position:-48px -132px; }
+.flag.CM { background-position:-48px -143px; }
+.flag.CN { background-position:-48px -154px; }
+.flag.CO { background-position:-48px -165px; }
+.flag.CR { background-position:-48px -198px; }
+.flag.CS { background-position:-48px -209px; }
+.flag.CU { background-position:-48px -231px; }
+.flag.CV { background-position:-48px -242px; }
+.flag.CX { background-position:-48px -264px; }
+.flag.CY { background-position:-48px -275px; }
+.flag.CZ { background-position:-48px -286px; }
+.flag.DE { background-position:-64px -55px; }
+.flag.DJ { background-position:-64px -110px; }
+.flag.DK { background-position:-64px -121px; }
+.flag.DM { background-position:-64px -143px; }
+.flag.DO { background-position:-64px -165px; }
+.flag.DZ { background-position:-64px -286px; }
+.flag.EC { background-position:-80px -33px; }
+.flag.EE { background-position:-80px -55px; }
+.flag.EG { background-position:-80px -77px; }
+.flag.EH { background-position:-80px -88px; }
+.flag.ER { background-position:-80px -198px; }
+.flag.ES { background-position:-80px -209px; }
+.flag.ET { background-position:-80px -220px; }
+.flag.FI { background-position:-96px -99px; }
+.flag.FJ { background-position:-96px -110px; }
+.flag.FK { background-position:-96px -121px; }
+.flag.FM { background-position:-96px -143px; }
+.flag.FO { background-position:-96px -165px; }
+.flag.FR { background-position:-96px -198px; }
+.flag.GA { background-position:-112px -11px; }
+.flag.GB { background-position:-112px -22px; }
+.flag.GD { background-position:-112px -44px; }
+.flag.GE { background-position:-112px -55px; }
+.flag.GF { background-position:-112px -66px; }
+.flag.GH { background-position:-112px -88px; }
+.flag.GI { background-position:-112px -99px; }
+.flag.GL { background-position:-112px -132px; }
+.flag.GM { background-position:-112px -143px; }
+.flag.GN { background-position:-112px -154px; }
+.flag.GP { background-position:-112px -176px; }
+.flag.GQ { background-position:-112px -187px; }
+.flag.GR { background-position:-112px -198px; }
+.flag.GS { background-position:-112px -209px; }
+.flag.GT { background-position:-112px -220px; }
+.flag.GU { background-position:-112px -231px; }
+.flag.GW { background-position:-112px -253px; }
+.flag.GY { background-position:-112px -275px; }
+.flag.HK { background-position:-128px -121px; }
+.flag.HM { background-position:-128px -143px; }
+.flag.HN { background-position:-128px -154px; }
+.flag.HR { background-position:-128px -198px; }
+.flag.HT { background-position:-128px -220px; }
+.flag.HU { background-position:-128px -231px; }
+.flag.ID { background-position:-144px -44px; }
+.flag.IE { background-position:-144px -55px; }
+.flag.IL { background-position:-144px -132px; }
+.flag.IN { background-position:-144px -154px; }
+.flag.IO { background-position:-144px -165px; }
+.flag.IQ { background-position:-144px -187px; }
+.flag.IR { background-position:-144px -198px; }
+.flag.IS { background-position:-144px -209px; }
+.flag.IT { background-position:-144px -220px; }
+.flag.JM { background-position:-160px -143px; }
+.flag.JO { background-position:-160px -165px; }
+.flag.JP { background-position:-160px -176px; }
+.flag.KE { background-position:-176px -55px; }
+.flag.KG { background-position:-176px -77px; }
+.flag.KH { background-position:-176px -88px; }
+.flag.KI { background-position:-176px -99px; }
+.flag.KM { background-position:-176px -143px; }
+.flag.KN { background-position:-176px -154px; }
+.flag.KP { background-position:-176px -176px; }
+.flag.KR { background-position:-176px -198px; }
+.flag.KW { background-position:-176px -253px; }
+.flag.KY { background-position:-176px -275px; }
+.flag.KZ { background-position:-176px -286px; }
+.flag.LA { background-position:-192px -11px; }
+.flag.LB { background-position:-192px -22px; }
+.flag.LC { background-position:-192px -33px; }
+.flag.LI { background-position:-192px -99px; }
+.flag.LK { background-position:-192px -121px; }
+.flag.LR { background-position:-192px -198px; }
+.flag.LS { background-position:-192px -209px; }
+.flag.LT { background-position:-192px -220px; }
+.flag.LU { background-position:-192px -231px; }
+.flag.LV { background-position:-192px -242px; }
+.flag.LY { background-position:-192px -275px; }
+.flag.MA { background-position:-208px -11px; }
+.flag.MC { background-position:-208px -33px; }
+.flag.MD { background-position:-208px -44px; }
+.flag.ME { background-position:-208px -55px; }
+.flag.MG { background-position:-208px -77px; }
+.flag.MH { background-position:-208px -88px; }
+.flag.MK { background-position:-208px -121px; }
+.flag.ML { background-position:-208px -132px; }
+.flag.MM { background-position:-208px -143px; }
+.flag.MN { background-position:-208px -154px; }
+.flag.MO { background-position:-208px -165px; }
+.flag.MP { background-position:-208px -176px; }
+.flag.MQ { background-position:-208px -187px; }
+.flag.MR { background-position:-208px -198px; }
+.flag.MS { background-position:-208px -209px; }
+.flag.MT { background-position:-208px -220px; }
+.flag.MU { background-position:-208px -231px; }
+.flag.MV { background-position:-208px -242px; }
+.flag.MW { background-position:-208px -253px; }
+.flag.MX { background-position:-208px -264px; }
+.flag.MY { background-position:-208px -275px; }
+.flag.MZ { background-position:-208px -286px; }
+.flag.NA { background-position:-224px -11px; }
+.flag.NC { background-position:-224px -33px; }
+.flag.NE { background-position:-224px -55px; }
+.flag.NF { background-position:-224px -66px; }
+.flag.NG { background-position:-224px -77px; }
+.flag.NI { background-position:-224px -99px; }
+.flag.NL { background-position:-224px -132px; }
+.flag.NO { background-position:-224px -165px; }
+.flag.NP { background-position:-224px -176px; }
+.flag.NR { background-position:-224px -198px; }
+.flag.NU { background-position:-224px -231px; }
+.flag.NZ { background-position:-224px -286px; }
+.flag.OM { background-position:-240px -143px; }
+.flag.PA { background-position:-256px -11px; }
+.flag.PE { background-position:-256px -55px; }
+.flag.PF { background-position:-256px -66px; }
+.flag.PG { background-position:-256px -77px; }
+.flag.PH { background-position:-256px -88px; }
+.flag.PK { background-position:-256px -121px; }
+.flag.PL { background-position:-256px -132px; }
+.flag.PM { background-position:-256px -143px; }
+.flag.PN { background-position:-256px -154px; }
+.flag.PR { background-position:-256px -198px; }
+.flag.PS { background-position:-256px -209px; }
+.flag.PT { background-position:-256px -220px; }
+.flag.PW { background-position:-256px -253px; }
+.flag.PY { background-position:-256px -275px; }
+.flag.QA { background-position:-272px -11px; }
+.flag.RE { background-position:-288px -55px; }
+.flag.RO { background-position:-288px -165px; }
+.flag.RS { background-position:-288px -209px; }
+.flag.RU { background-position:-288px -231px; }
+.flag.RW { background-position:-288px -253px; }
+.flag.SA { background-position:-304px -11px; }
+.flag.SB { background-position:-304px -22px; }
+.flag.SC { background-position:-304px -33px; }
+.flag.SD { background-position:-304px -44px; }
+.flag.SE { background-position:-304px -55px; }
+.flag.SG { background-position:-304px -77px; }
+.flag.SH { background-position:-304px -88px; }
+.flag.SI { background-position:-304px -99px; }
+.flag.SJ { background-position:-304px -110px; }
+.flag.SK { background-position:-304px -121px; }
+.flag.SL { background-position:-304px -132px; }
+.flag.SM { background-position:-304px -143px; }
+.flag.SN { background-position:-304px -154px; }
+.flag.SO { background-position:-304px -165px; }
+.flag.SR { background-position:-304px -198px; }
+.flag.SS { background-position:-304px -209px; }
+.flag.ST { background-position:-304px -220px; }
+.flag.SV { background-position:-304px -242px; }
+.flag.SY { background-position:-304px -275px; }
+.flag.SZ { background-position:-304px -286px; }
+.flag.TC { background-position:-320px -33px; }
+.flag.TD { background-position:-320px -44px; }
+.flag.TF { background-position:-320px -66px; }
+.flag.TG { background-position:-320px -77px; }
+.flag.TH { background-position:-320px -88px; }
+.flag.TJ { background-position:-320px -110px; }
+.flag.TK { background-position:-320px -121px; }
+.flag.TL { background-position:-320px -132px; }
+.flag.TM { background-position:-320px -143px; }
+.flag.TN { background-position:-320px -154px; }
+.flag.TO { background-position:-320px -165px; }
+.flag.TR { background-position:-320px -198px; }
+.flag.TT { background-position:-320px -220px; }
+.flag.TV { background-position:-320px -242px; }
+.flag.TW { background-position:-320px -253px; }
+.flag.TZ { background-position:-320px -286px; }
+.flag.UA { background-position:-336px -11px; }
+.flag.UG { background-position:-336px -77px; }
+.flag.UM { background-position:-336px -143px; }
+.flag.US { background-position:-336px -209px; }
+.flag.UY { background-position:-336px -275px; }
+.flag.UZ { background-position:-336px -286px; }
+.flag.VA { background-position:-352px -11px; }
+.flag.VC { background-position:-352px -33px; }
+.flag.VE { background-position:-352px -55px; }
+.flag.VG { background-position:-352px -77px; }
+.flag.VI { background-position:-352px -99px; }
+.flag.VN { background-position:-352px -154px; }
+.flag.VU { background-position:-352px -231px; }
+.flag.WF { background-position:-368px -66px; }
+.flag.WS { background-position:-368px -209px; }
+.flag.YE { background-position:-400px -55px; }
+.flag.YT { background-position:-400px -220px; }
+.flag.ZA { background-position:-416px -11px; }
+.flag.ZM { background-position:-416px -143px; }
+.flag.ZW { background-position:-416px -253px; }
+div.downloadButtons {
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Big button */
+span.button a { 
+    height: 32px;
+    font: bold 18px/32px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
+    span.button a span {
+        display: block;
+        white-space: nowrap;
+        padding: 5px 12px 5px 0;
+        line-height: 23px;
+        cursor: pointer;
+    }
+
+/* Small button */
+
+span.buttonSmall a {
+	height: 22px;
+	font: bold 14px/22px Helvetica, Arial, sans-serif;
+	text-decoration: none;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+}
+	span.buttonSmall a span {
+		display: block;
+        white-space: nowrap;
+		padding: 0px 11px 0 0;
+        line-height: 24px;    
+        cursor: pointer;
+	}
+	
+	* html span.buttonSmall a span {
+        line-height: 22px;
+    }
+
+/* Blue */
+
+span.button a.blue {
+    background: #42B2F5;
+	color: #fff;
+    padding: 0 0 0 12px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) left top no-repeat;
+}
+
+span.button a.blue:hover {
+    padding: 0 0 0 12px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) 0 -32px no-repeat;
+}
+	span.button a.blue span {
+	    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right top no-repeat;
+	}
+	span.button a.blue:hover span {
+	    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right -32px no-repeat;
+	}
+span.button a.blue.skypeCredit {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_credit_left.png) left top no-repeat;
+}
+
+span.button a.blue.skypeCredit:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_credit_left.png) 0 -32px no-repeat;
+}
+
+span.button a.blue.shop {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_shop_left.png) left top no-repeat;
+}
+
+span.button a.blue.shop:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_shop_left.png) 0 -32px no-repeat;
+}
+
+span.button a.blue.logitechWebcam {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_logitechwebcam_left.png) left top no-repeat;
+}
+
+span.button a.blue.logitechWebcam:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_logitechwebcam_left.png) 0 -32px no-repeat;
+}
+span.button a.blue.freeCall {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_call_left.png) no-repeat scroll left top;
+}
+span.button a.blue.freeCall:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_call_left.png) 0 -32px no-repeat;
+}
+span.button a.blue.skypeToGo {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_togo_left.png) left top no-repeat;
+}
+
+span.button a.blue.skypeToGo:hover {
+    padding: 0 0 0 40px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_togo_left.png) 0 -32px no-repeat;
+}
+
+
+/* Blue small */
+
+span.buttonSmall a.blue {
+	background:  #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+    color: #FFFFFF;
+}
+
+span.buttonSmall a.blue:hover {
+	background:  #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.blue span {
+	background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.blue:hover span {
+	background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.blue.skypeCredit {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_credit_left.png) left top no-repeat;
+}
+span.buttonSmall a.blue.skypeCredit:hover {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_credit_left.png) left -22px no-repeat;
+}
+span.buttonSmall a.blue.skypeOnlineNr {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_onlinenr_left.png) left top no-repeat;
+}
+span.buttonSmall a.blue.skypeOnlineNr:hover {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_onlinenr_left.png) left -22px no-repeat;
+}
+span.buttonSmall a.blue.skypeVoicemail {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_voicemail_left.png) left top no-repeat;
+}
+span.buttonSmall a.blue.skypeVoicemail:hover {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_voicemail_left.png) left -22px no-repeat;
+}
+span.buttonSmall a.blue.shop {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_cart_left.png) left top no-repeat;
+}
+span.buttonSmall a.blue.shop:hover {
+    padding: 0 0 0 32px;
+    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_cart_left.png) left -22px no-repeat;
+}
+
+
+/* Yellow */
+
+span.button a.yellow {
+	color: #545454;
+    padding: 0 0 0 12px;
+    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left top no-repeat;
+}
+span.button a.yellow:hover {
+    padding: 0 0 0 12px;
+    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left -32px no-repeat;
+}
+	span.button a.yellow span {
+	    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right top no-repeat;
+	}
+	span.button a.yellow:hover span {
+	    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right -32px no-repeat;
+	}
+span.button a.yellow.skypePro {
+    padding: 0 0 0 40px;
+    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_pro_left.png) left top no-repeat;
+}
+span.button a.yellow.skypePro:hover {
+    padding: 0 0 0 40px;
+    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_pro_left.png) left -32px no-repeat;
+}
+span.button a.yellow.freeCall {
+    padding: 0 0 0 40px;
+    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_call_left.png) left top no-repeat;
+}
+span.button a.yellow.freeCall:hover {
+    padding: 0 0 0 40px;
+    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_call_left.png) left -32px no-repeat;
+}
+
+
+/* Yellow small */
+
+span.buttonSmall a.yellow {
+    color: #545454;
+    background:  #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.yellow:hover {
+	background:  #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.yellow span {
+	background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.yellow:hover span {
+	background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.yellow.skypePro {
+    padding: 0 0 0 32px;
+    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_pro_left.png) left top no-repeat;
+}
+
+span.buttonSmall a.yellow.skypePro:hover {
+    padding: 0 0 0 32px;
+    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_pro_left.png) left -22px no-repeat;
+}
+
+/* Gray */
+
+span.button a.gray {
+	color: #0181E3;
+    padding: 0 0 0 12px;
+    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat;
+}
+span.button a.gray:hover {
+    padding: 0 0 0 12px;
+    color: #006ABC;
+    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left -32px no-repeat;
+}
+	span.button a.gray span {
+	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat;
+	}
+	span.button a.gray:hover span {
+	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right -32px no-repeat;
+	}
+
+/* Gray small */
+
+span.buttonSmall a.gray {
+    color: #0181E3;
+	background:  #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.gray:hover {
+    color: #006ABC;
+	background:  #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.gray span {
+	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.gray:hover span {
+	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.gray.mail {
+    padding: 0 0 0 32px;
+    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_mail_left.png) left top no-repeat;
+}
+span.buttonSmall a.gray.mail:hover {
+    padding: 0 0 0 32px;
+    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_mail_left.png) left -22px no-repeat;
+}
+
+
+/* Green */
+
+span.button a.green {
+    color: #FFFFFF;
+    padding: 0 0 0 12px;
+    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) left top no-repeat;
+}
+span.button a.green:hover {
+    padding: 0 0 0 12px;
+    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) 0 -32px no-repeat;
+}
+    span.button a.green span {
+        background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right top no-repeat;
+    }
+    span.button a.green:hover span {
+        background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right -32px no-repeat;
+    }
+
+span.button a.green.skype {
+    padding: 0 0 0 40px;
+    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_skype_left.png) left top no-repeat;
+}
+span.button a.green.skype:hover {
+    padding: 0 0 0 40px;
+    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_skype_left.png) 0 -32px no-repeat;
+}
+
+span.button a.green.extras {
+    padding: 0 0 0 40px;
+    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_extras_left.png) left top no-repeat;
+}
+span.button a.green.extras:hover {
+    padding: 0 0 0 40px;
+    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_extras_left.png) 0 -32px no-repeat;
+}
+
+/* Green small */
+
+span.buttonSmall a.green {
+    color: #fff;
+	background:  #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.green:hover {
+    color: #fff;
+	background:  #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.green:active {
+    color: #fff;
+	background:  #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left -44px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.green span {
+	background: #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.green:hover span {
+	background: #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.green:active span {
+	background: #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right -44px no-repeat;
+}
+
+/* Orange */
+
+span.button a.orange {
+    color: #FFFFFF;
+    padding: 0 0 0 12px;
+    background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) left top no-repeat;
+}
+span.button a.orange:hover {
+    padding: 0 0 0 12px;
+    background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) 0 -32px no-repeat;
+}
+span.button a.orange:active {
+    padding: 0 0 0 12px;
+    background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) 0 -64px no-repeat;
+}
+    span.button a.orange span {
+        background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right top no-repeat;
+    }
+    span.button a.orange:hover span {
+        background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right -32px no-repeat;
+    }
+    span.button a.orange:active span {
+        background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right -64px no-repeat;
+    }
+
+
+/* Orange small */
+
+span.buttonSmall a.orange {
+    color: #fff;
+	background:  #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.orange:hover {
+    color: #fff;
+	background:  #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.orange:active {
+    color: #fff;
+	background:  #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left -44px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.orange span {
+	background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.orange:hover span {
+	background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.orange:active span {
+	background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right -44px no-repeat;
+}
+
+/* Purple */
+
+span.button a.purple {
+    color: #FFFFFF;
+    padding: 0 0 0 12px;
+    background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) left top no-repeat;
+}
+span.button a.purple:hover {
+    padding: 0 0 0 12px;
+    background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) 0 -32px no-repeat;
+}
+span.button a.purple:active {
+    padding: 0 0 0 12px;
+    background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) 0 -64px no-repeat;
+}
+    span.button a.purple span {
+        background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right top no-repeat;
+    }
+    span.button a.purple:hover span {
+        background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right -32px no-repeat;
+    }
+    span.button a.purple:active span {
+        background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right -64px no-repeat;
+    }
+
+/* Purple small */
+
+span.buttonSmall a.purple {
+    color: #fff;
+	background:  #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left top no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.purple:hover {
+    color: #fff;
+	background:  #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left -22px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.purple:active {
+    color: #fff;
+	background:  #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left -44px no-repeat;
+	padding-left: 11px;
+}
+
+span.buttonSmall a.purple span {
+	background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right top no-repeat;
+}
+
+span.buttonSmall a.purple:hover span {
+	background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right -22px no-repeat;
+}
+
+span.buttonSmall a.purple:active span {
+	background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right -44px no-repeat;
+}
+
+
+/* Disabled buttons */
+
+span.button a.disabled {
+	color: #afb4b4 !important;
+	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+	cursor: default !important;
+}
+span.buttonSmall a.disabled {
+	color: #afb4b4 !important;
+	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+	cursor: default !important;
+}
+
+span.button a.disabled:hover {
+	color: #afb4b4 !important;
+	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+	cursor: default !important;
+}
+span.button a.disabled span {
+	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+	cursor: default !important;
+}
+span.button a.disabled:hover span {
+	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+	cursor: default !important;
+}
+span.buttonSmall a.disabled:hover {
+    color: #afb4b4 !important;
+	background:  #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+	cursor: default !important;
+}
+span.buttonSmall a.disabled span {
+	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+	cursor: default !important;
+}
+span.buttonSmall a.disabled:hover span {
+	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+	cursor: default !important;
+}
+
+
+/* Buttons and text on right */
+
+.buttonAndText span.button,
+.buttonAndText span.buttonSmall,
+.buttonSmallAndText span.button,
+.buttonSmallAndText span.buttonSmall {
+	margin-right: 0.25em;
+}
+
+.buttonAndText .text {
+	line-height: 32px;
+	padding-left: 0.5em;
+}
+.buttonSmallAndText .text {
+	line-height: 23px;
+	padding-left: 0.5em;
+}
+
+/* Buttons in infoBox columns */
+
+#content #infoBox p span.buttonSmall {
+	float: left;
+	padding-bottom: 8px;
+}
+
+/* Used for forms where we need to submit forms, but have only button links */
+.hiddenSubmit {
+    position: absolute;
+    top: -10000px;
+    left: -10000px;
+}
+
+.fieldHelper {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+}
+    .fieldHelper img {
+        vertical-align: top;
+        line-height: 16px;
+        margin-top: 3px;
+    }
+/* Experimental buttons that don't require JS */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    overflow: visible;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+}
+    button span {
+        display: block;
+        overflow: visible;
+        padding: 0;
+        white-space: nowrap;
+        margin: 0;
+    }
+        button span strong {
+            display: block;
+            white-space: nowrap;
+            margin: 0;
+            overflow: visible;
+        }
+button:focus,
+button:active {
+    outline: hidden;
+}
+button.button {
+    font: bold 18px Helvetica, Arial, sans-serif;
+    height: 34px;
+    margin-top: -4px;
+}
+button.button span {
+    height: 32px;
+}
+    button.button span strong {
+        padding: 0 12px 0 0;
+        line-height: 32px;
+        *line-height: 31px; /* IE specific line-height fix */
+        height: 32px;
+    } 
+    button.button span.gray {
+    	color: #0181E3;
+        padding-left: 12px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat;
+    }
+    button.button span.green {
+    	color: #fff;
+        padding-left: 12px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) left top no-repeat;
+    }
+    button.button span.blue {
+    	color: #fff;
+        padding-left: 12px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) left top no-repeat;
+    }
+    button.button span.yellow {
+    	color: #545454;
+        padding-left: 12px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left top no-repeat;
+    }
+    button.button span.purple {
+    	color: #fff;
+        padding-left: 12px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) left top no-repeat;
+    }
+    button.button span.orange {
+    	color: #fff;
+        padding-left: 12px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) left top no-repeat;
+    }
+    button.button:hover span.gray {
+        color: #006ABC;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.blue {
+        color: #fff;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.green {
+        color: #fff;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.yellow {
+        color: #545454;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.purple {
+        color: #fff;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) left -32px no-repeat;
+    }
+    button.button:hover span.orange {
+        color: #fff;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) left -32px no-repeat;
+    }
+    	button.button span.gray strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.green strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.blue strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.yellow strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.purple strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right top no-repeat;
+    	}
+    	button.button span.orange strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right top no-repeat;
+    	}
+    	button.button:hover span.gray strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.green strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.blue strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.yellow strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.purple strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right -32px no-repeat;
+    	}
+    	button.button:hover span.orange strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right -32px no-repeat;
+    	}
+    button.button span.disabled {
+        color: #afb4b4 !important;
+    	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+    	cursor: default !important;
+    }
+    button.button:hover span.disabled {
+        color: #afb4b4 !important;
+    	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+    	cursor: default !important;
+    }
+        button.button span.disabled strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+    	}
+    	button.button:hover span.disabled strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+    	}
+button.buttonSmall {
+    font: bold 14px Helvetica, Arial, sans-serif;
+    height: 24px;
+    margin-top: -1px;
+}
+.buttonSmallAndText button.buttonSmall {
+    margin-top: -4px;
+}
+button.buttonSmall span {
+    height: 22px;
+}
+    button.buttonSmall span strong {
+        padding: 0 11px 0 0;
+        line-height: 23px;
+        *line-height: 21px; /* IE specific line-height fix */
+        height: 22px;
+    } 
+    button.buttonSmall span.gray {
+    	color: #0181E3;
+        padding-left: 11px;
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.green {
+    	color: #fff;
+        padding-left: 11px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.blue {
+    	color: #fff;
+        padding-left: 11px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.yellow {
+    	color: #545454;
+        padding-left: 11px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.purple {
+    	color: #fff;
+        padding-left: 11px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall span.orange {
+    	color: #fff;
+        padding-left: 11px;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left top no-repeat;
+    }
+    button.buttonSmall:hover span.gray {
+        color: #006ABC;
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.blue {
+        color: #fff;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.green {
+        color: #fff;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.yellow {
+        color: #545454;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.purple {
+        color: #fff;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left -22px no-repeat;
+    }
+    button.buttonSmall:hover span.orange {
+        color: #fff;
+        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left -22px no-repeat;
+    }
+    	button.buttonSmall span.gray strong {
+    	    background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.green strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.blue strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.yellow strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.purple strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall span.orange strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right top no-repeat;
+    	}
+    	button.buttonSmall:hover span.gray strong {
+    	    background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.green strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.blue strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.yellow strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.purple strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right -22px no-repeat;
+    	}
+    	button.buttonSmall:hover span.orange strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right -22px no-repeat;
+    	}
+    button.buttonSmall span.disabled {
+        color: #afb4b4 !important;
+    	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+    	cursor: default !important;
+    }
+    button.buttonSmall:hover span.disabled {
+        color: #afb4b4 !important;
+    	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+    	cursor: default !important;
+    }
+        button.buttonSmall span.disabled strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+    	}
+    	button.buttonSmall:hover span.disabled strong {
+    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+    	}
+/* FF specific line-height fix */
+@-moz-document url-prefix() {
+    button {
+        margin: 0 0 0 -3px;
+    }
+
+    button.button span strong {
+        line-height: 35px;
+    }
+    button.buttonSmall span strong {
+        line-height: 25px;
+    }
+    .buttons button {
+        margin-left: 6px !important;
+    }
+}
+/* Text styles based on content, tables etc */
+
+#content #paddedContent table.list {
+	width: 100%;
+	border-top: 1px solid #d9d9d9;
+	margin-bottom: 28px;
+}
+#content #paddedContent table.list td,
+#content #paddedContent table.list th {
+	padding: 3px 20px;
+	border-bottom: 1px solid #d9d9d9;
+}
+#content #paddedContent table.list thead td,
+#content #paddedContent table.list thead th {
+	background: #e5f6fd;
+}
+#content #paddedContent table.list th {
+	font-weight: bold;
+}
+
+#content #paddedContent table.prices {
+	width: 100%;
+	border-top: 1px solid #cbcdcd;
+	margin-bottom: 28px;
+}
+#content #paddedContent table.prices td,
+#content #paddedContent table.prices th {
+	padding: 12px 10px;
+}
+
+#content #paddedContent table.prices tr.grey td,
+#content #paddedContent table.prices tr.grey th {
+	background-color: #f2f2f2;
+}
+
+#content #paddedContent table.prices tr.grey td {
+	border-left: 1px solid #ffffff;
+}
+
+#content #paddedContent table.prices td span {
+	color: #afb4b4;
+}
+
+#content #paddedContent table.prices th {
+	line-height: 16px;
+}
+
+#content #paddedContent table.prices th img {
+	float: left;
+	margin: 0 8px 0 0;
+}
+
+#content #paddedContent p,
+#content #paddedContent h1,
+#content #paddedContent h2,
+#content #paddedContent h3,
+#content #paddedContent h4,
+#content #paddedContent h5,
+#content #paddedContent h6,
+#content #paddedContent .padded {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+	#content #paddedContent h1.icon img {
+		vertical-align: middle;
+		margin-top: -8px;
+		background: white;
+		padding-right: 8px;
+	}
+.padded {
+    color: #2c2c2c;
+}
+
+#content #paddedContent ul p,
+#content #paddedContent ul h1,
+#content #paddedContent ul h2,
+#content #paddedContent ul h3,
+#content #paddedContent ul h4,
+#content #paddedContent ul h5,
+#content #paddedContent ul h6,
+#content #paddedContent ul .padded {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+#content div.fullWidth h1,
+#content div.fullWidth h2,
+#content div.fullWidth h3,
+#content div.fullWidth h4,
+#content div.fullWidth h5,
+#content div.fullWidth p,
+#content div.fullWidth .padded {
+	padding-left: 20px
+	padding-right: 20px;
+}
+#content #paddedContent li {
+	padding-right: 10px;
+}
+
+#content #paddedContent .contentSplit .leftQuarter p,
+#content #paddedContent .contentSplit .leftQuarter h1,
+#content #paddedContent .contentSplit .leftQuarter h2,
+#content #paddedContent .contentSplit .leftQuarter h3 {
+	padding-right: 0;
+}
+#content #paddedContent .contentSplit .rightQuarter p,
+#content #paddedContent .contentSplit .rightQuarter h1,
+#content #paddedContent .contentSplit .rightQuarter h2,
+#content #paddedContent .contentSplit .rightQuarter h3 {
+	padding-left: 0;
+}
+
+#content #paddedContent img.floatl {
+	margin: 0 20px 0 -10px;
+}
+
+#content #paddedContent img.floatr {
+	margin: 0 -10px 0 20px;
+}
+
+#content ul {
+	margin-left: 0px;
+	padding-left: 20px;
+	list-style: outside circle;
+}
+#content ol {
+	margin-left: 0px;
+	padding-left: 20px;
+	list-style: decimal inside;
+}
+#content ul li,
+#content ol li {
+	overflow: visible;
+}
+small {
+	color: #7b7f81;
+	font-size: 0.85em;
+}
+ul.small {
+	color: #7b7f81;
+	font-size: 0.85em;
+	margin-top: 0;
+}
+#content ul li.title {
+	list-style: none;
+}
+#content ul li.action {
+	list-style: none;
+}
+p.center {
+	text-align: center;
+}
+.graphicalSteps {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/graphical_steps.png) no-repeat 23px bottom;
+	padding-left: 35px;
+}
+
+.removeStepsBorder {
+	background: #fff;
+	margin-left: -35px;
+	padding-left: 35px;
+	margin-bottom: -15px;
+}
+
+#content #paddedContent div.fakeParagraph {
+	margin-bottom: 1.357em;
+	height: 100%;
+	color: #2c2c2c;
+}
+
+#content #paddedContent h2.step1,
+#content #paddedContent h2.step2,
+#content #paddedContent h2.step3,
+#content #paddedContent h2.step4,
+#content #paddedContent h2.step5,
+#content #paddedContent h2.step6,
+#content #paddedContent h2.step7,
+#content #paddedContent h2.step8,
+#content #paddedContent h2.step9,
+#content #paddedContent h2.step10,
+#content #paddedContent.fullWidth h2.step1,
+#content #paddedContent.fullWidth h2.step2,
+#content #paddedContent.fullWidth h2.step3,
+#content #paddedContent.fullWidth h2.step4,
+#content #paddedContent.fullWidth h2.step5,
+#content #paddedContent.fullWidth h2.step6,
+#content #paddedContent.fullWidth h2.step7,
+#content #paddedContent.fullWidth h2.step8,
+#content #paddedContent.fullWidth h2.step9,
+#content #paddedContent.fullWidth h2.step10,
+#content #paddedContent h2.step1Disabled,
+#content #paddedContent h2.step2Disabled,
+#content #paddedContent h2.step3Disabled,
+#content #paddedContent h2.step4Disabled,
+#content #paddedContent h2.step5Disabled,
+#content #paddedContent h2.step6Disabled,
+#content #paddedContent h2.step7Disabled,
+#content #paddedContent h2.step8Disabled,
+#content #paddedContent h2.step9Disabled,
+#content #paddedContent h2.step10Disabled {
+	padding-left: 35px !important;
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin-left: -25px;
+	zoom: 1;
+}
+
+#content #paddedContent p.step1,
+#content #paddedContent p.step2,
+#content #paddedContent p.step3,
+#content #paddedContent p.step4,
+#content #paddedContent p.step5,
+#content #paddedContent p.step6,
+#content #paddedContent p.step7,
+#content #paddedContent p.step8,
+#content #paddedContent p.step9,
+#content #paddedContent p.step10 {
+	padding: 9px 0 8px 35px !important;
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin-left: -25px;
+	zoom: 1;
+}
+
+h2.step1,
+p.step1 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_1.png);
+}
+h2.step2,
+p.step2 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_2.png);
+}
+h2.step3,
+p.step3 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_3.png);
+}
+h2.step4,
+p.step4 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_4.png);
+}
+h2.step5,
+p.step5 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_5.png);
+}
+h2.step6,
+pstep6 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_6.png);
+}
+h2.step7,
+p.step7 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_7.png);
+}
+h2.step8,
+p.step8 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_8.png);
+}
+h2.step9,
+p.step9 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_9.png);
+}
+h2.step10,
+p.step10 {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_10.png);
+}
+div.graphicalSteps.skypeToGo p.bottomMargin {
+	margin-bottom:5px;
+}
+h2.step1Disabled {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_1.png);
+	color: #959595;
+}
+h2.step2Disabled {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_2.png);
+	color: #959595;
+}
+h2.step3Disabled {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_3.png);
+	color: #959595;                                    
+}                                                      
+h2.step4Disabled {                                    
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_4.png);
+	color: #959595;                                    
+}                                                      
+h2.step5Disabled {                                    
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_5.png);
+	color: #959595;                                    
+}                                                      
+h2.step6Disabled {                                    
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_6.png);
+	color: #959595;                                    
+}                                                      
+h2.step7Disabled {                                    
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_7.png);
+	color: #959595;                                    
+}                                                      
+h2.step8Disabled {                                    
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_8.png);
+	color: #959595;                                    
+}                                                      
+h2.step9Disabled {                                    
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_9.png);
+	color: #959595;                                    
+}
+h2.step10Disabled {
+	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_10.png);
+	color: #959595;
+}
+#content div.contentbox div.boxheading {
+	padding: 10px 10px 8px 10px;
+	margin: 0 !important;
+	font: bold 1.385em Helvetica, Arial, sans-serif;
+	color: #2c2c2c;
+}
+	body.voicemail.lang-pl #content div.contentbox div.boxheading {
+		font-size:13px;
+	}
+	body.voicemail.lang-de #content div.contentbox div.boxheading,
+	body.voicemail.lang-fr #content div.contentbox div.boxheading,
+	body.voicemail.lang-pt #content div.contentbox div.boxheading  {
+		font-size:14px;
+	}
+	body.voicemail.lang-es #content div.contentbox div.boxheading,
+	body.voicemail.lang-sv #content div.contentbox div.boxheading {
+		font-size:17px;
+	}
+
+#content div.contentbox p {
+	margin: 0;
+	padding: 10px;
+}
+
+#content div.contentbox img.floatr {
+	padding: 0 10px 10px 10px;
+}
+
+#content div.contentbox.yellow {
+	background-color: #fff8e1;
+}
+
+#content div.contentbox.yellow div.boxheading {
+	background-color: #ffe9a4;
+}
+
+#content div.contentbox.blue {
+	background-color: #e2f2fe;
+}
+
+#content div.contentbox.blue div.boxheading {
+	background-color: #9dd6ff;
+}
+
+#content div.contentbox.orange {
+	background-color: #fff0e5;
+}
+
+#content div.contentbox.orange div.boxheading {
+	background-color: #ffb97f;
+	color: #ffffff;
+}
+
+#content #infoBox {
+	margin: 10px 0 0 10px;
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/yellow_blue_bottombox_bg.png) -462px 0px repeat-y;
+}
+
+#content #infoBox p {
+	padding: 10px;
+}
+#content #infoBox .leftBlock {
+	width: 335px;
+	float: left;
+}
+
+#content #infoBox .rightBlock {
+	width: 335px;
+	float: right;
+}
+
+#content #infoBox .leftBlockTriple {
+	width: 210px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#content #infoBox .centerBlockTriple {
+	width: 220px;
+	float: left;
+}
+
+#content #infoBox .rightBlockTriple {
+	width: 230px;
+	float: right;
+}
+
+.hiddenElement {
+    visibility: hidden !important;
+}
+
+.shownElement {
+    visibility: visible !important;
+}
+
+.hiddenBlock {
+    display: none !important;
+}
+
+.shownBlock {
+    display: block !important;
+}
+
+#content .upSellBox {
+    background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/upsell_box.png) no-repeat bottom left;
+    overflow: hidden;
+    zoom: 1;
+}
+#content .upSellBoxYellow {
+    background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/upsell_box_yellow.png) no-repeat bottom left;
+    overflow: hidden;
+    zoom: 1;
+}
+    #content .upSellBox h2,
+    #content .upSellBoxYellow h2 {
+        margin-bottom: 0.75em;
+        padding-top: 10px;
+    }
+    #content .upSellBox .leftColumn {
+        width: 345px;
+        float: left;
+        display: inline;
+        overflow: hidden;
+    }
+        #content .upSellBox .leftColumn h2 {
+            background: #9dd6ff;
+            padding-left: 10px !important;
+            margin-left: 10px;
+        }
+    #content .upSellBox .rightColumn {
+        width: 345px;
+        float: right;
+        display: inline;
+        overflow: hidden;
+    }
+        #content .upSellBox .rightColumn h2,
+        #content .upSellBoxYellow .singleColumn h2 {
+            background: #ffe9a4;
+            padding-left: 10px !important;
+            margin-left: 10px;
+        }
+    #content .upSellBoxYellow .singleColumn {
+        overflow: hidden;
+    }
+    #content .upSellBox h2 img,
+    #content .upSellBoxYellow h2 img {
+        margin: -5px 0 0 0 !important;
+    }
+    #content .upSellBox p.buttonSmallAndText,
+    #content .upSellBoxYellow p.buttonSmallAndText {
+        margin-bottom: 1em;
+    }
+    #content .upSellCta {
+        height: 23px;
+    }
+#content h2 img.icon16 {
+	vertical-align: middle;
+	margin: 0px 5px 4px 0px;
+}
+#content p.message {
+	padding: 14px 20px 16px 67px !important;
+	margin: 1.31em 0 1.45em 0 !important;
+}
+#content p.notification {
+    margin-top: 30px !important;
+    font-weight: normal;
+}
+p.error {
+	border-top: 1px solid #f08a73;
+	border-bottom: 1px solid #f08a73;
+	color: #525252;
+	background: #ffe3df url(/web/20090305095506im_/http://c.skype.com/i/images/icons/message_error.png) no-repeat 20px center;
+}
+p.info {
+	border-top: 1px solid #aee756;
+	border-bottom: 1px solid #aee756;
+	color: #525252;
+	font-weight: bold;
+	background: #e9fad0 url(/web/20090305095506im_/http://c.skype.com/i/images/icons/message_info.png) no-repeat 20px center;
+}
+p.warning {
+	border-top: 1px solid #FFCA0B;
+	border-bottom: 1px solid #FFCA0B;
+	color: #525252;
+	font-weight: bold;
+	background: #FFEFB5 url(/web/20090305095506im_/http://c.skype.com/i/images/icons/warning_icon.png) no-repeat 20px center;
+}
+p.smiley {
+    background: #FFF5CC url(/web/20090305095506im_/http://c.skype.com/i/images/icons/smiley_icon.png) no-repeat scroll 20px center;
+    border-bottom:1px solid #FFCD00;
+    border-top:1px solid #FFCD00;
+    color:#2C2C2C;
+    font-weight:bold;
+    padding-left:52px;
+}
+p.message span.deEmphasize {
+    font-weight: normal;
+}
+#content p.forceLayout {
+    zoom: 1;
+}
+div.additionalInformation {
+    background: #E5F6FD;
+    border-bottom: 1px solid #7FD7F7;
+    border-top: 1px solid #7FD7F7;
+    padding: 15px 0;
+    overflow: hidden;
+	width: 100%;
+}
+
+div.thinBlueBox {
+    background: #E5F6FD;
+    border-bottom: 1px solid #7FD7F7;
+    border-top: 1px solid #7FD7F7;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+    div.thinBlueBox p {
+        margin-bottom: 0;
+        line-height: 32px;
+    }
+    
+    div.thinBlueBox p span.splitterPipe {
+        color: #999999;
+        margin: 0 5px;
+    }
+
+div.success {
+	padding-left: 86px;
+	padding-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: auto;
+	background: #E5F6FD url(/web/20090305095506im_/http://c.skype.com/i/images/icons/okay_48x48_lightblue.png) no-repeat 20px center;
+}
+p.available {
+	color: #666666;
+	clear: both;
+}
+p.available img {
+	vertical-align: top;
+	margin-right: 3px;
+}
+p.available span {
+	/* padding-left: 5px; */
+}
+
+p.available a {
+	text-decoration: none;
+	color: #666666;
+}
+
+p.available a:hover {
+	text-decoration: underline;
+	color: #0181e3;
+}
+
+
+div.customLinks a {
+	color: #2c2c2c;
+	text-decoration: none;
+}
+
+div.customLinks a:hover {
+	color: #0181E3 !important;
+	text-decoration: underline !important;
+}
+
+div.customLinks a:visited {
+	color: #2c2c2c;
+	text-decoration: none;
+}
+p.noEmergency {
+    margin-top: 30px;
+}
+p.noEmergency.icon {
+    background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/noemergency.png) center left no-repeat;
+    padding-left: 50px !important;
+    margin-left: 20px;
+}
+p.noEmergency small {
+	color: #2c2c2c;
+}
+p.noEmergency strong {
+	color: #f00;
+	font-weight: normal;
+}
+
+#sidebarContent p.noEmergency {
+    padding: 170px 0 0 0 !important;
+    margin: 0 !important;
+    background: white url(/web/20090305095506im_/http://c.skype.com/i/images/icons/noemergency.png) 0 130px no-repeat !important;
+}
+#sidebarContent p.noEmergency small {
+	color: #2c2c2c;
+}
+#sidebarContent p.noEmergency strong {
+	color: #f00;
+	font-weight: normal;
+}
+
+/* flowContainer */
+
+.flowContainerTop {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_top.png) no-repeat top left;
+	width: 960px;
+	margin-bottom: 0.93em;
+}
+.flowContainerBottom {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_bottom.png) no-repeat bottom left;
+	padding: 21px 21px 22px 21px;
+}
+
+.flowContent {
+	padding: 10px 20px 0 20px;
+}
+.flowSubmit {
+	padding: 17px 20px 18px 20px;
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_submit.png);
+	overflow: hidden;
+}
+* html .flowContent,
+* html .flowSubmit {
+	display: inline-block;
+}
+#content #paddedContent .flowContent p,
+#content #paddedContent .flowContent h1,
+#content #paddedContent .flowContent h2,
+#content #paddedContent .flowContent h3,
+#content #paddedContent .flowContent h4,
+#content #paddedContent .flowContent h5,
+#content #paddedContent .flowContent h6 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+    /* width sidebar */
+
+    #container.sidebar div.flowContainerTop {
+    	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_thin_top.png) no-repeat top left;
+    	width: 690px;
+    	margin-bottom: 0.93em;
+    }
+    #container.sidebar div.flowContainerBottom {
+    	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_thin_bottom.png) no-repeat bottom left;
+    	padding: 5px 21px 22px 21px;
+    }
+
+    #container.sidebar div.flowContent {
+    	padding: 5px;
+    }
+
+    #container.sidebar div.flowContent table th {
+        background-color: #f6f6f6;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    #container.sidebar div.flowContent table td {
+        padding: 10px;
+    }
+
+    #container.sidebar div.flowContent table tr.firstRow td {
+        border-top: 1px solid #c4c7c7;
+    }
+
+    #container.sidebar div.flowContent table tr.odd td {
+        background-color: #ffffff;
+    }
+
+    #container.sidebar div.flowContent table tr.even td {
+        background-color: #f6f6f6;
+    }
+
+#content #paddedContent.fullWidth {
+	padding-right: 0;
+}
+p.simpleInfo {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16.png) no-repeat 10px 0;
+	padding-left: 34px !important;
+}
+.flowThin {
+	padding-bottom: 11px;
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flowthin_submit_shadow.png) bottom center repeat-x;
+	zoom: 1;
+}
+
+.flowContentThin {
+	border: 1px solid #cccccc;
+}
+
+.flowContentThin.withTabs {
+	margin-top: -19px;
+	border-top: 0;
+}
+
+.tabContents {
+	overflow: hidden;
+	height: 0;
+}
+
+#content #paddedContent .flowContentThin p,
+#content #paddedContent .flowContentThin h1,
+#content #paddedContent .flowContentThin h2,
+#content #paddedContent .flowContentThin h3,
+#content #paddedContent .flowContentThin h4,
+#content #paddedContent .flowContentThin h5,
+#content #paddedContent .flowContentThin h6 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.flowSubmitThin {
+	padding: 17px 20px 18px 20px;
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_submit.png);
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+}
+* html .flowContentThin,
+* html .flowSubmitThin {
+	display: inline-block;
+}
+
+.default p.simpleInfo,
+.fullWidth p.simpleInfo {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16.png) no-repeat 20px 0;
+	padding-left: 44px !important;
+}
+#content #paddedContent .flowContent p.simpleInfo {
+    background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16.png) no-repeat 10px 0;
+    padding-left: 34px !important;
+}
+table.listTable {
+	width: 100%;
+}
+.flowContent table.listTable {
+	margin-top: 0.79em;
+}
+table.listTable th {
+	border-bottom: 1px solid #7fd7f7;
+	font-weight: bold;
+	padding: 8px 5px 9px 5px;
+}
+table.listTable td {
+	padding: 8px 5px 8px 5px;
+	vertical-align: middle;
+}
+table.listTable .right {
+	padding-right: 20px;
+}
+table.listTable .left {
+	padding-left: 20px;
+}
+.flowContent table.listTable .right {
+	padding-right: 10px;
+}
+.flowContent table.listTable .left {
+	padding-left: 10px;
+}
+table.listTable span.flag {
+	margin-top: -2px;
+}
+tr.even td {
+	background: #fff;
+}
+tr.odd td {
+	background: #e5f7fd;
+}
+tr.edit td.edit {
+	border-top: 1px solid #bfc4c4;
+	background: #fffb93 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_edit.png) top left repeat-x;
+	padding-left: 0;
+	padding-right: 0;
+}
+table.listTable td.edit th {
+	border: none;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+table.listTable td.edit table.editTable td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+table.editTable span.buttonSmall {
+	margin-left: 8px;
+}
+table.editTable td small {
+	margin-top: 5px;
+}
+table.wideTable {
+	width: 100%;
+}
+.hiLite {
+	color: #00aff0;
+}
+#content .flowContent p.message {
+	margin-top: 0 !important;
+}
+td.toBottom {
+	vertical-align: bottom !important;
+	padding-bottom: 10px !important;
+}
+.atlasImage {
+    position: absolute;
+}
+.table.formTable {
+
+}
+    table.formTable td,
+    table.formTable th {
+        padding: 0 0 12px 0;
+    }
+    table.formTable td {
+        padding: 0 20px 12px 0;
+    }
+    table.formTable th {
+        text-align: right;
+    }
+    table.formTable th label {
+        padding-right: 18px;
+    }
+    table.formTable td.error input,
+    table.formTable td.error select,
+    table.formTable td.error textarea {
+        border: 1px solid #ff4c3c;
+        background: #ffe3df;
+    }
+
+/* Local site bar*/
+#localSiteBar {
+    border-bottom: 1px solid #e9e9e9;
+    background: #fff5cc;
+    overflow: hidden;
+    height: 0;
+}
+#localSiteBarContent {
+    width: 920px;
+    margin: 0 auto;
+    font-size: 0.79em;
+    color: #525252;
+    background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16_yellow.png) no-repeat left 4px;
+    line-height: 16px;
+}
+    #localSiteBar span {
+        display: block;
+        padding: 5px 0 5px 21px;
+    }
+    #localSiteBar .flag {
+        vertical-align: middle;
+        margin-top: -3px;
+    }
+    #localSiteBar #closeButton {
+        height: 16px;
+        width: 16px;
+        float: right;
+        background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/delete_small.png) no-repeat center center;
+        margin-top: 3px;
+    }
+#content ul.steps li {
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left: 25px;
+    height: 100%;
+}
+    #content ul.steps li.step1 {
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_1_small.png) no-repeat 0 0;
+    }
+    #content ul.steps li.step2 {
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_2_small.png) no-repeat 0 0;
+    }
+    #content ul.steps li.step3 {
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_3_small.png) no-repeat 0 0;
+    }
+    #content ul.steps li.step4 {
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_4_small.png) no-repeat 0 0;
+    }
+    #content ul.steps li.step5 {
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_5_small.png) no-repeat 0 0;
+    }
+    #content ul.steps li.step6 {
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_6_small.png) no-repeat 0 0;
+    }
+    #content ul.steps li.step7 {
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_7_small.png) no-repeat 0 0;
+    }
+    #content ul.steps li.step8 {
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_8_small.png) no-repeat 0 0;
+    }
+    #content ul.steps li.step9 {
+        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_9_small.png) no-repeat 0 0;
+    }
+
+/* fancy tooltip */
+    
+#fancyTip {
+    z-index: 1000;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+}
+#fancyTip .pointer {
+    background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/tooltip-arrow.png) no-repeat 16px 0px;
+    height: 16px;
+    width: 50px;
+    position: relative;
+    z-index: 2;
+}
+#fancyTip .tip {
+    min-width: 50px;
+    margin-top: -5px;
+    background: #fff5cc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 5px solid #919191;
+    padding: 7px;
+    font-size: 12px;
+    line-height: 16px;
+    z-index: 1;
+
+    _border-top: 6px;
+    _margin-top: -6px;
+}
+
+.forScreenReader {
+    position: absolute;
+    top: -10000px;
+    left: 0;
+}
+
+/* sideBar */ 
+
+#sidebarContent {
+	/* font-size: 1.08em; */
+	/* font-family: "Lucida Grande", Helvetica, Arial, sans-serif; */ /* 14px */ 
+	/*line-height: 1.357em; */ /* 19px */ 
+}
+
+#sidebar #sidebarContent {
+	padding: 60px 20px 0 17px;
+}
+#sidebar #sidebarContent.lowTop {
+	padding-top: 0;
+}
+#sidebarContent strong.sidebarHeading {
+	display: block;
+	color: #444444;
+}
+
+#sidebarContent strong.sidebarHeading img {
+	vertical-align: middle;
+}
+
+#sidebarContent img.floatl {
+	margin: 0 10px 0 -10px;
+}
+
+#sidebarContent img.floatr {
+	margin: 0 -10px 0 10px;
+}
+
+
+#sidebarContent div.sidebarButton {
+	margin: -55px 0 -24px -17px;
+	padding: 45px 0 50px;
+	display: block;
+	float: left;
+	width: 221px;
+	color: #0181e3;
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/grad_vline.png) center right no-repeat;
+}
+
+* html #sidebarContent div.sidebarButton {
+	margin: -55px -30px -26px -9px;
+}
+
+#sidebarContent div.sidebarButton a {
+	display: block;
+	float: left;
+	cursor: pointer;
+	min-height: 41px;
+	width: 203px;
+	padding-left: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #0181e3;
+}
+
+* html #sidebarContent div.sidebarButton a {
+	min-height: 41px;
+}
+
+#sidebarContent div.sidebarButton a img {
+	display: block;
+	margin: 6px 0 0 0;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+
+#sidebarContent div.sidebarButton a span {
+	margin: 10px 15px 10px 30px !important;
+	display: block !important;
+	text-decoration: underline !important;
+	font-weight: bold !important;
+	color: #0181e3 !important;
+	background: transparent !important;
+}
+
+#sidebarContent div.sidebarButton a:hover {
+	color: #0181e3 !important;
+}
+
+#sidebarContent div.sidebarButton a:active {
+	color: #2c2c2c !important;
+}
+
+#sidebarContent div.sidebarButton a:visited {
+	color: #0181e3 !important;
+}
+
+/* GREEN button background */
+
+#sidebarContent div.sidebarButton a.green {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/green_sidebar.png) 0px bottom no-repeat !important;
+}
+
+#sidebarContent div.sidebarButton a.green:hover {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/green_sidebar.png) -221px bottom no-repeat !important;
+}
+
+#sidebarContent div.sidebarButton a.green:active {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/green_sidebar.png) -442px bottom no-repeat !important;
+}
+
+/* YELLOW button background */
+
+#sidebarContent div.sidebarButton a.yellow {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/yellow_sidebar.png) 0px bottom no-repeat !important;
+}
+
+#sidebarContent div.sidebarButton a.yellow:hover {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/yellow_sidebar.png) -221px bottom no-repeat !important;
+}
+
+#sidebarContent div.sidebarButton a.yellow:active {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/yellow_sidebar.png) -442px bottom no-repeat !important;
+}
+
+/* BLUE button background */
+
+#sidebarContent div.sidebarButton a.blue {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/blue_sidebar.png) 0px bottom no-repeat !important;
+}
+
+#sidebarContent div.sidebarButton a.blue:hover {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/blue_sidebar.png) -221px bottom no-repeat !important;
+}
+
+#sidebarContent div.sidebarButton a.blue:active {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/blue_sidebar.png) -442px bottom no-repeat !important;
+}
+
+#sidebar #sidebarContent ul {
+	list-style: circle inside;
+}
+#sidebar #sidebarContent ul li.title {
+	list-style: none outside;
+	margin: 0;
+	padding: 0;
+}
+#sidebarContent ul li strong.sidebarHeading {
+	display: inline;
+}
+/* Header related styles */ 
+
+body {
+	background: white url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/top_gradient.png) top left repeat-x; /* TODO: Backgrounds on one larger image... */
+	position: relative;
+}
+
+#header {
+	width: 960px;
+	margin: 0 auto 5px auto;
+	padding: 20px 0 0 0;
+	overflow: hidden;
+	font-size: 0.786em;
+	line-height: 47px;
+	font-weight: bold;
+}
+    #header form {
+    	display: inline;
+    }
+    #footer fieldset, #header fieldset {
+        display: inline;
+        line-height: 1em;
+        vertical-align: middle;
+    }
+	#header #searchSet {
+		display: inline;
+	}
+#skypeLogo {
+	float: left;
+	width: 35%;
+	overflow: auto;
+	text-decoration: none;
+}
+	#skypeLogo img {
+		margin: 0 15px 0 20px;
+		display: block;
+		float: left;
+		display: inline;
+	}
+	#skypeLogo span {
+		display: block;
+		float: left;
+		color: #7FD7F7;
+	}
+#headerNavigation {
+	float: right;
+	width: 65%;
+	text-align: right;
+	color: #AFB4B4;
+}
+	#headerNavigation a {
+		margin: 0 4px;
+		color: #00AFF0;
+		text-decoration: none;
+	}
+	#headerNavigation a:hover {
+	    text-decoration: underline;
+	}
+	#headerNavigation input {
+		margin: 0 20px 0 6px;
+	}
+    #headerNavigation span {
+        margin: 0 4px;
+        color: #636363;
+    }
+
+/* Footer related styles */
+
+#footer {
+	height: 75px;
+	background: white url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/bottom_gradient.png) top left repeat-x;
+	padding: 14px;
+	clear: both;
+	color: #AFB4B4;
+	font-size: 0.786em;
+	margin: 60px 0 0 0;
+}
+	#footer a {
+		color: #636363;
+		text-decoration: none;
+		margin: 0 4px;
+	}
+	#footer a:hover {
+		color: #444444;
+		text-decoration: underline;
+	}
+	#footer strong {	
+		color: #7FD7F7;
+		margin: 0 4px;
+	}
+#userPreferencesForm {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+}
+#footerNavigation {
+	float: left;
+	padding: 0 0 0 20px;
+	line-height: 26px !important;
+}
+    #footerNavigation select {
+        margin: 0 10px 0 5px;
+    }
+    #footerNavigation .flag {
+        margin-top: 5px;
+    }
+	#userLanguage {
+		width:185px;
+	}
+#legalLinks {
+	float: right;
+	text-align: right;
+	padding: 0 20px 0 0;
+	line-height: 26px !important;	
+}
+	#legalLinks span {
+		margin: 0 0 0 4px;
+	}
+
+
+/* Navigation related styles */
+
+#mainNavigation {
+	background: white url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navigation_blue.png) bottom left repeat-x;
+	border-bottom: 1px solid #7FD7F7;
+	min-height: 31px;
+}
+* html #mainNavigation {
+	height: 31px;
+}
+	#mainNavigation ul, #subNavigation ul {
+		width: 860px;
+		margin: 0 auto;
+		padding: 0 0 0 100px;
+		overflow: hidden;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	#mainNavigation li {
+		float: left;
+		margin: 0 -20px 0 30px;
+		font-size: 1.143em;
+		font-weight: bold;
+		min-height: 24px;
+		padding-left: 2px;
+		display: inline;
+	}
+	* html #mainNavigation li {
+		height: 25px;
+	}
+
+		#mainNavigation li a, #mainNavigation li strong {
+			text-decoration: none;
+			color: #636363;
+			display: block;
+			padding: 8px 10px 4px 8px;
+			min-height: 20px;
+		}
+		#mainNavigation li.active a {
+		    padding: 0;
+		}
+		#mainNavigation li.active, #mainNavigation li.active a, #mainNavigation li.active strong {
+			color: white;
+			background: #7FD7F7;
+		}
+		#mainNavigation li.active, #mainNavigation li.hover {
+			background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
+		}
+		#mainNavigation li.active strong, #mainNavigation li.hover a {
+			background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) top right no-repeat;
+		}
+		#mainNavigation li.hover a {
+		    color: white;
+		}
+
+    /* Show orange ribbon on Shop tag */
+	#mainNavigation ul.shopWithRibbon li#main-menu-shop {
+		border-left: 1px solid white;
+		border-right: 1px solid white;
+		background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navigation_blue_ribbon.png) no-repeat bottom right;
+	}
+	    #mainNavigation ul.shopWithRibbon li#main-menu-shop a,
+	    #mainNavigation ul.shopWithRibbon li#main-menu-shop strong {
+			padding: 8px 14px 4px 7px;
+	    }
+		#mainNavigation ul.shopWithRibbon li#main-menu-shop.active,
+		#mainNavigation ul.shopWithRibbon li#main-menu-shop.hover {
+		    border: none;
+			background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
+	    }
+
+		#mainNavigation ul.shopWithRibbon li#main-menu-shop.active strong,
+		#mainNavigation ul.shopWithRibbon li#main-menu-shop.hover a {
+    		padding: 8px 15px 4px 8px;
+			background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right_ribbon.png) top right no-repeat;
+        }
+		#mainNavigation ul.shopWithRibbon li#main-menu-shop.active a {
+		    padding: 0;
+		}
+
+        /* Show gift icon on Shop tag */
+    	#mainNavigation ul.shopWithGift li#main-menu-shop {
+    		background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navigation_blue_gift.png) no-repeat bottom left;
+    		padding-left: 25px;
+    	}
+    	    #mainNavigation ul.shopWithGift li#main-menu-shop a,
+    	    #mainNavigation ul.shopWithGift li#main-menu-shop strong {
+    			padding: 8px 10px 4px 6px;
+    	    }
+    		#mainNavigation ul.shopWithGift li#main-menu-shop.active,
+    		#mainNavigation ul.shopWithGift li#main-menu-shop.hover {
+              background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left_gift.png) no-repeat top left;
+    	    }
+
+    		#mainNavigation ul.shopWithGift li#main-menu-shop.active strong,
+    		#mainNavigation ul.shopWithGift li#main-menu-shop.hover a {
+/*              background: #7FD7F7 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) no-repeat top right;*/
+            }
+    		#mainNavigation ul.shopWithGift li#main-menu-shop.active a {
+    		    padding: 0;
+    		}
+
+
+
+#subNavigation {
+	position: relative;
+	z-index: 9999;
+}
+	#subNavigation ul {
+	    font-size: 0.929em;
+	}
+	#subNavigation li {
+		float: left;
+		margin: 0 -25px 0 25px;
+		font-size: 1em;
+		background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/subnavi_back.png);
+		padding: 7px 15px 5px 15px;
+		display: inline;
+		white-space: nowrap;
+	}
+		#subNavigation li a {
+			color: #636363;
+			text-decoration: none;
+			font-weight: normal;
+		}
+		#subNavigation li a:hover {
+			color: #444444;
+			text-decoration: underline;
+		}
+		#subNavigation li.active a:hover {
+			text-decoration: none;
+		}
+		#subNavigation li strong {	
+			color: #7FD7F7;
+		}
+
+/* TODO: Conditions go somewhere else? */
+
+.cond-default {
+    display: block;
+}
+.cond-existing, .cond-30days {
+    display: none;
+}
+#content .chevron {
+	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/chevron.png) repeat-x center right;
+	margin: 2px 16px 0 0 !important;
+	padding: 0 !important;
+	height: 16px;
+	display: inline;
+}
+	.chevron li {
+		float: left;
+		list-style: none;
+		font-weight: bold;
+		color: #939393;
+		background: #fff;
+		margin: 0 0 0 22px;
+		padding: 0 4px 0 26px !important;
+		display: inline;
+	}
+	.chevron li.current {
+		color: #000;
+	}
+	.chevron li.first {
+		margin-left: 0;
+	}
+	.chevron li.step1,
+	.chevron li.step2,
+	.chevron li.step3,
+	.chevron li.step4,
+	.chevron li.step5,
+	.chevron li.step6,
+	.chevron li.step7,
+	.chevron li.step8,
+	.chevron li.step9 {
+		padding-left: 26px;
+		background: no-repeat;
+		background-color: #fff;
+		background-position: 4px 0px !important;
+	}
+	.chevron li.step1 {
+		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_1_small.png);
+	}
+	.chevron li.step1.current {
+		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_1_small.png);
+	}
+	.chevron li.step2 {
+		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_2_small.png);
+	}
+	.chevron li.step2.current {
+		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_2_small.png);
+	}
+	.chevron li.step3 {
+		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_3_small.png);
+	}
+	.chevron li.step3.current {
+		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_3_small.png);
+	}
+.naviSteps {
+	font-weight: bold;
+}
+	.naviSteps span {
+		color: #98d112;
+		padding: 0 0.25em;
+	}
+/*
+     FILE ARCHIVED ON 09:55:06 Mar 05, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:25:06 Jun 04, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 194.592
+  exclusion.robots: 0.21
+  exclusion.robots.policy: 0.202
+  cdx.remote: 0.068
+  esindex: 0.01
+  LoadShardBlock: 93.81 (3)
+  PetaboxLoader3.datanode: 95.058 (4)
+  CDXLines.iter: 19.691 (3)
+  load_resource: 97.463
+  PetaboxLoader3.resolve: 61.543
+*/
