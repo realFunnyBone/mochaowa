@@ -170,7 +170,7 @@ div.clearLineRight {
 
 /* Grid for pages with a sidebar: 700 content + 240 sideabar */
 #container.sidebar {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/sidebar_end.png) no-repeat 689px bottom;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/sidebar_end.png) no-repeat 689px bottom;
 	margin-bottom: 30px;
 }
 #container #content {
@@ -193,7 +193,7 @@ div.default {
 #container.sidebar #content {
 	width: 720px;
 	float: left;
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/sidebar_begin.png) no-repeat 689px top;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/sidebar_begin.png) no-repeat 689px top;
 	padding: 0;
 }
 #container.sidebar #sidebar {
@@ -313,7 +313,7 @@ div.threeColumnSplit {
 
 /* Development grip */
 div#grid {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/_grid.png);
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/_grid.png);
 	position: absolute;
 	top: 5px;
 	left: 0;
@@ -327,7 +327,7 @@ div#grid {
     height: 11px;
     line-height: 11px;
     font: 1px monospace;
-    background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/flags/flags_matrix.png);
+    background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/flags/flags_matrix.png);
     margin: 2px 4px 2px 0;
 }
 
@@ -338,7 +338,7 @@ img.flag {
     width: 16px;
     height: 11px;
     font: 1px monospace;
-    background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/flags/flags_matrix.png);
+    background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/flags/flags_matrix.png);
     margin: 0;    
 }
 
@@ -638,119 +638,119 @@ span.button a.blue {
     background: #42B2F5;
 	color: #fff;
     padding: 0 0 0 12px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) left top no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) left top no-repeat;
 }
 
 span.button a.blue:hover {
     padding: 0 0 0 12px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) 0 -32px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) 0 -32px no-repeat;
 }
 	span.button a.blue span {
-	    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right top no-repeat;
+	    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right top no-repeat;
 	}
 	span.button a.blue:hover span {
-	    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right -32px no-repeat;
+	    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right -32px no-repeat;
 	}
 span.button a.blue.skypeCredit {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_credit_left.png) left top no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_credit_left.png) left top no-repeat;
 }
 
 span.button a.blue.skypeCredit:hover {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_credit_left.png) 0 -32px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_credit_left.png) 0 -32px no-repeat;
 }
 
 span.button a.blue.shop {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_shop_left.png) left top no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_shop_left.png) left top no-repeat;
 }
 
 span.button a.blue.shop:hover {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_shop_left.png) 0 -32px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_shop_left.png) 0 -32px no-repeat;
 }
 
 span.button a.blue.logitechWebcam {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_logitechwebcam_left.png) left top no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_logitechwebcam_left.png) left top no-repeat;
 }
 
 span.button a.blue.logitechWebcam:hover {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_logitechwebcam_left.png) 0 -32px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_logitechwebcam_left.png) 0 -32px no-repeat;
 }
 span.button a.blue.freeCall {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_call_left.png) no-repeat scroll left top;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_call_left.png) no-repeat scroll left top;
 }
 span.button a.blue.freeCall:hover {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_call_left.png) 0 -32px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_call_left.png) 0 -32px no-repeat;
 }
 span.button a.blue.skypeToGo {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_togo_left.png) left top no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_togo_left.png) left top no-repeat;
 }
 
 span.button a.blue.skypeToGo:hover {
     padding: 0 0 0 40px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_togo_left.png) 0 -32px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_togo_left.png) 0 -32px no-repeat;
 }
 
 
 /* Blue small */
 
 span.buttonSmall a.blue {
-	background:  #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left top no-repeat;
+	background:  #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left top no-repeat;
 	padding-left: 11px;
     color: #FFFFFF;
 }
 
 span.buttonSmall a.blue:hover {
-	background:  #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left -22px no-repeat;
+	background:  #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left -22px no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.blue span {
-	background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right top no-repeat;
+	background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right top no-repeat;
 }
 
 span.buttonSmall a.blue:hover span {
-	background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right -22px no-repeat;
+	background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right -22px no-repeat;
 }
 
 span.buttonSmall a.blue.skypeCredit {
     padding: 0 0 0 32px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_credit_left.png) left top no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_credit_left.png) left top no-repeat;
 }
 span.buttonSmall a.blue.skypeCredit:hover {
     padding: 0 0 0 32px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_credit_left.png) left -22px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_credit_left.png) left -22px no-repeat;
 }
 span.buttonSmall a.blue.skypeOnlineNr {
     padding: 0 0 0 32px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_onlinenr_left.png) left top no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_onlinenr_left.png) left top no-repeat;
 }
 span.buttonSmall a.blue.skypeOnlineNr:hover {
     padding: 0 0 0 32px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_onlinenr_left.png) left -22px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_onlinenr_left.png) left -22px no-repeat;
 }
 span.buttonSmall a.blue.skypeVoicemail {
     padding: 0 0 0 32px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_voicemail_left.png) left top no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_voicemail_left.png) left top no-repeat;
 }
 span.buttonSmall a.blue.skypeVoicemail:hover {
     padding: 0 0 0 32px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_voicemail_left.png) left -22px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_voicemail_left.png) left -22px no-repeat;
 }
 span.buttonSmall a.blue.shop {
     padding: 0 0 0 32px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_cart_left.png) left top no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_cart_left.png) left top no-repeat;
 }
 span.buttonSmall a.blue.shop:hover {
     padding: 0 0 0 32px;
-    background: #42B2F5 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_cart_left.png) left -22px no-repeat;
+    background: #42B2F5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_cart_left.png) left -22px no-repeat;
 }
 
 
@@ -759,33 +759,33 @@ span.buttonSmall a.blue.shop:hover {
 span.button a.yellow {
 	color: #545454;
     padding: 0 0 0 12px;
-    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left top no-repeat;
+    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left top no-repeat;
 }
 span.button a.yellow:hover {
     padding: 0 0 0 12px;
-    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left -32px no-repeat;
+    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left -32px no-repeat;
 }
 	span.button a.yellow span {
-	    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right top no-repeat;
+	    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right top no-repeat;
 	}
 	span.button a.yellow:hover span {
-	    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right -32px no-repeat;
+	    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right -32px no-repeat;
 	}
 span.button a.yellow.skypePro {
     padding: 0 0 0 40px;
-    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_pro_left.png) left top no-repeat;
+    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_pro_left.png) left top no-repeat;
 }
 span.button a.yellow.skypePro:hover {
     padding: 0 0 0 40px;
-    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_pro_left.png) left -32px no-repeat;
+    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_pro_left.png) left -32px no-repeat;
 }
 span.button a.yellow.freeCall {
     padding: 0 0 0 40px;
-    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_call_left.png) left top no-repeat;
+    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_call_left.png) left top no-repeat;
 }
 span.button a.yellow.freeCall:hover {
     padding: 0 0 0 40px;
-    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_call_left.png) left -32px no-repeat;
+    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_call_left.png) left -32px no-repeat;
 }
 
 
@@ -793,31 +793,31 @@ span.button a.yellow.freeCall:hover {
 
 span.buttonSmall a.yellow {
     color: #545454;
-    background:  #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left top no-repeat;
+    background:  #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left top no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.yellow:hover {
-	background:  #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left -22px no-repeat;
+	background:  #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left -22px no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.yellow span {
-	background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right top no-repeat;
+	background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right top no-repeat;
 }
 
 span.buttonSmall a.yellow:hover span {
-	background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right -22px no-repeat;
+	background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right -22px no-repeat;
 }
 
 span.buttonSmall a.yellow.skypePro {
     padding: 0 0 0 32px;
-    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_pro_left.png) left top no-repeat;
+    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_pro_left.png) left top no-repeat;
 }
 
 span.buttonSmall a.yellow.skypePro:hover {
     padding: 0 0 0 32px;
-    background: #FFCD00 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_pro_left.png) left -22px no-repeat;
+    background: #FFCD00 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_pro_left.png) left -22px no-repeat;
 }
 
 /* Gray */
@@ -825,49 +825,49 @@ span.buttonSmall a.yellow.skypePro:hover {
 span.button a.gray {
 	color: #0181E3;
     padding: 0 0 0 12px;
-    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat;
+    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat;
 }
 span.button a.gray:hover {
     padding: 0 0 0 12px;
     color: #006ABC;
-    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left -32px no-repeat;
+    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left -32px no-repeat;
 }
 	span.button a.gray span {
-	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat;
+	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat;
 	}
 	span.button a.gray:hover span {
-	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right -32px no-repeat;
+	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right -32px no-repeat;
 	}
 
 /* Gray small */
 
 span.buttonSmall a.gray {
     color: #0181E3;
-	background:  #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat;
+	background:  #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.gray:hover {
     color: #006ABC;
-	background:  #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left -22px no-repeat;
+	background:  #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left -22px no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.gray span {
-	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat;
+	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat;
 }
 
 span.buttonSmall a.gray:hover span {
-	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right -22px no-repeat;
+	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right -22px no-repeat;
 }
 
 span.buttonSmall a.gray.mail {
     padding: 0 0 0 32px;
-    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_mail_left.png) left top no-repeat;
+    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_mail_left.png) left top no-repeat;
 }
 span.buttonSmall a.gray.mail:hover {
     padding: 0 0 0 32px;
-    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_mail_left.png) left -22px no-repeat;
+    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_mail_left.png) left -22px no-repeat;
 }
 
 
@@ -876,67 +876,67 @@ span.buttonSmall a.gray.mail:hover {
 span.button a.green {
     color: #FFFFFF;
     padding: 0 0 0 12px;
-    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) left top no-repeat;
+    background: #87C80A url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) left top no-repeat;
 }
 span.button a.green:hover {
     padding: 0 0 0 12px;
-    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) 0 -32px no-repeat;
+    background: #87C80A url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) 0 -32px no-repeat;
 }
     span.button a.green span {
-        background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right top no-repeat;
+        background: #87C80A url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right top no-repeat;
     }
     span.button a.green:hover span {
-        background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right -32px no-repeat;
+        background: #87C80A url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right -32px no-repeat;
     }
 
 span.button a.green.skype {
     padding: 0 0 0 40px;
-    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_skype_left.png) left top no-repeat;
+    background: #87C80A url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_skype_left.png) left top no-repeat;
 }
 span.button a.green.skype:hover {
     padding: 0 0 0 40px;
-    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_skype_left.png) 0 -32px no-repeat;
+    background: #87C80A url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_skype_left.png) 0 -32px no-repeat;
 }
 
 span.button a.green.extras {
     padding: 0 0 0 40px;
-    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_extras_left.png) left top no-repeat;
+    background: #87C80A url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_extras_left.png) left top no-repeat;
 }
 span.button a.green.extras:hover {
     padding: 0 0 0 40px;
-    background: #87C80A url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_extras_left.png) 0 -32px no-repeat;
+    background: #87C80A url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_extras_left.png) 0 -32px no-repeat;
 }
 
 /* Green small */
 
 span.buttonSmall a.green {
     color: #fff;
-	background:  #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left top no-repeat;
+	background:  #8ac519 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left top no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.green:hover {
     color: #fff;
-	background:  #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left -22px no-repeat;
+	background:  #8ac519 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left -22px no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.green:active {
     color: #fff;
-	background:  #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left -44px no-repeat;
+	background:  #8ac519 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left -44px no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.green span {
-	background: #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right top no-repeat;
+	background: #8ac519 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right top no-repeat;
 }
 
 span.buttonSmall a.green:hover span {
-	background: #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right -22px no-repeat;
+	background: #8ac519 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right -22px no-repeat;
 }
 
 span.buttonSmall a.green:active span {
-	background: #8ac519 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right -44px no-repeat;
+	background: #8ac519 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right -44px no-repeat;
 }
 
 /* Orange */
@@ -944,24 +944,24 @@ span.buttonSmall a.green:active span {
 span.button a.orange {
     color: #FFFFFF;
     padding: 0 0 0 12px;
-    background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) left top no-repeat;
+    background: #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) left top no-repeat;
 }
 span.button a.orange:hover {
     padding: 0 0 0 12px;
-    background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) 0 -32px no-repeat;
+    background: #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) 0 -32px no-repeat;
 }
 span.button a.orange:active {
     padding: 0 0 0 12px;
-    background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) 0 -64px no-repeat;
+    background: #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) 0 -64px no-repeat;
 }
     span.button a.orange span {
-        background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right top no-repeat;
+        background: #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right top no-repeat;
     }
     span.button a.orange:hover span {
-        background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right -32px no-repeat;
+        background: #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right -32px no-repeat;
     }
     span.button a.orange:active span {
-        background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right -64px no-repeat;
+        background: #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right -64px no-repeat;
     }
 
 
@@ -969,32 +969,32 @@ span.button a.orange:active {
 
 span.buttonSmall a.orange {
     color: #fff;
-	background:  #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left top no-repeat;
+	background:  #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left top no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.orange:hover {
     color: #fff;
-	background:  #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left -22px no-repeat;
+	background:  #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left -22px no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.orange:active {
     color: #fff;
-	background:  #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left -44px no-repeat;
+	background:  #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left -44px no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.orange span {
-	background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right top no-repeat;
+	background: #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right top no-repeat;
 }
 
 span.buttonSmall a.orange:hover span {
-	background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right -22px no-repeat;
+	background: #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right -22px no-repeat;
 }
 
 span.buttonSmall a.orange:active span {
-	background: #fe9000 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right -44px no-repeat;
+	background: #fe9000 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right -44px no-repeat;
 }
 
 /* Purple */
@@ -1002,56 +1002,56 @@ span.buttonSmall a.orange:active span {
 span.button a.purple {
     color: #FFFFFF;
     padding: 0 0 0 12px;
-    background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) left top no-repeat;
+    background: #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) left top no-repeat;
 }
 span.button a.purple:hover {
     padding: 0 0 0 12px;
-    background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) 0 -32px no-repeat;
+    background: #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) 0 -32px no-repeat;
 }
 span.button a.purple:active {
     padding: 0 0 0 12px;
-    background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) 0 -64px no-repeat;
+    background: #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) 0 -64px no-repeat;
 }
     span.button a.purple span {
-        background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right top no-repeat;
+        background: #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right top no-repeat;
     }
     span.button a.purple:hover span {
-        background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right -32px no-repeat;
+        background: #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right -32px no-repeat;
     }
     span.button a.purple:active span {
-        background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right -64px no-repeat;
+        background: #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right -64px no-repeat;
     }
 
 /* Purple small */
 
 span.buttonSmall a.purple {
     color: #fff;
-	background:  #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left top no-repeat;
+	background:  #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left top no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.purple:hover {
     color: #fff;
-	background:  #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left -22px no-repeat;
+	background:  #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left -22px no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.purple:active {
     color: #fff;
-	background:  #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left -44px no-repeat;
+	background:  #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left -44px no-repeat;
 	padding-left: 11px;
 }
 
 span.buttonSmall a.purple span {
-	background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right top no-repeat;
+	background: #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right top no-repeat;
 }
 
 span.buttonSmall a.purple:hover span {
-	background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right -22px no-repeat;
+	background: #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right -22px no-repeat;
 }
 
 span.buttonSmall a.purple:active span {
-	background: #7c1b7c url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right -44px no-repeat;
+	background: #7c1b7c url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right -44px no-repeat;
 }
 
 
@@ -1059,39 +1059,39 @@ span.buttonSmall a.purple:active span {
 
 span.button a.disabled {
 	color: #afb4b4 !important;
-	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
 	cursor: default !important;
 }
 span.buttonSmall a.disabled {
 	color: #afb4b4 !important;
-	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
 	cursor: default !important;
 }
 
 span.button a.disabled:hover {
 	color: #afb4b4 !important;
-	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
 	cursor: default !important;
 }
 span.button a.disabled span {
-	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
 	cursor: default !important;
 }
 span.button a.disabled:hover span {
-	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
 	cursor: default !important;
 }
 span.buttonSmall a.disabled:hover {
     color: #afb4b4 !important;
-	background:  #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+	background:  #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
 	cursor: default !important;
 }
 span.buttonSmall a.disabled span {
-	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
 	cursor: default !important;
 }
 span.buttonSmall a.disabled:hover span {
-	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
 	cursor: default !important;
 }
 
@@ -1185,108 +1185,108 @@ button.button span {
     button.button span.gray {
     	color: #0181E3;
         padding-left: 12px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat;
     }
     button.button span.green {
     	color: #fff;
         padding-left: 12px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) left top no-repeat;
     }
     button.button span.blue {
     	color: #fff;
         padding-left: 12px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) left top no-repeat;
     }
     button.button span.yellow {
     	color: #545454;
         padding-left: 12px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left top no-repeat;
     }
     button.button span.purple {
     	color: #fff;
         padding-left: 12px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) left top no-repeat;
     }
     button.button span.orange {
     	color: #fff;
         padding-left: 12px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) left top no-repeat;
     }
     button.button:hover span.gray {
         color: #006ABC;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left -32px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left -32px no-repeat;
     }
     button.button:hover span.blue {
         color: #fff;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) left -32px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_left.png) left -32px no-repeat;
     }
     button.button:hover span.green {
         color: #fff;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) left -32px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_left.png) left -32px no-repeat;
     }
     button.button:hover span.yellow {
         color: #545454;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left -32px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_left.png) left -32px no-repeat;
     }
     button.button:hover span.purple {
         color: #fff;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) left -32px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_left.png) left -32px no-repeat;
     }
     button.button:hover span.orange {
         color: #fff;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) left -32px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_left.png) left -32px no-repeat;
     }
     	button.button span.gray strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat;
     	}
     	button.button span.green strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right top no-repeat;
     	}
     	button.button span.blue strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right top no-repeat;
     	}
     	button.button span.yellow strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right top no-repeat;
     	}
     	button.button span.purple strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right top no-repeat;
     	}
     	button.button span.orange strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right top no-repeat;
     	}
     	button.button:hover span.gray strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right -32px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right -32px no-repeat;
     	}
     	button.button:hover span.green strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right -32px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_comp_right.png) right -32px no-repeat;
     	}
     	button.button:hover span.blue strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right -32px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_comp_right.png) right -32px no-repeat;
     	}
     	button.button:hover span.yellow strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right -32px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_comp_right.png) right -32px no-repeat;
     	}
     	button.button:hover span.purple strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right -32px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_comp_right.png) right -32px no-repeat;
     	}
     	button.button:hover span.orange strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right -32px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_comp_right.png) right -32px no-repeat;
     	}
     button.button span.disabled {
         color: #afb4b4 !important;
-    	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+    	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
     	cursor: default !important;
     }
     button.button:hover span.disabled {
         color: #afb4b4 !important;
-    	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
+    	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_left.png) left top no-repeat !important;
     	cursor: default !important;
     }
         button.button span.disabled strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
     	}
     	button.button:hover span.disabled strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_comp_right.png) right top no-repeat !important;
     	}
 button.buttonSmall {
     font: bold 14px Helvetica, Arial, sans-serif;
@@ -1308,108 +1308,108 @@ button.buttonSmall span {
     button.buttonSmall span.gray {
     	color: #0181E3;
         padding-left: 11px;
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat;
     }
     button.buttonSmall span.green {
     	color: #fff;
         padding-left: 11px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left top no-repeat;
     }
     button.buttonSmall span.blue {
     	color: #fff;
         padding-left: 11px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left top no-repeat;
     }
     button.buttonSmall span.yellow {
     	color: #545454;
         padding-left: 11px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left top no-repeat;
     }
     button.buttonSmall span.purple {
     	color: #fff;
         padding-left: 11px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left top no-repeat;
     }
     button.buttonSmall span.orange {
     	color: #fff;
         padding-left: 11px;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left top no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left top no-repeat;
     }
     button.buttonSmall:hover span.gray {
         color: #006ABC;
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left -22px no-repeat;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left -22px no-repeat;
     }
     button.buttonSmall:hover span.blue {
         color: #fff;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left -22px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_left.png) left -22px no-repeat;
     }
     button.buttonSmall:hover span.green {
         color: #fff;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left -22px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_left.png) left -22px no-repeat;
     }
     button.buttonSmall:hover span.yellow {
         color: #545454;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left -22px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_left.png) left -22px no-repeat;
     }
     button.buttonSmall:hover span.purple {
         color: #fff;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left -22px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_left.png) left -22px no-repeat;
     }
     button.buttonSmall:hover span.orange {
         color: #fff;
-        background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left -22px no-repeat;
+        background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_left.png) left -22px no-repeat;
     }
     	button.buttonSmall span.gray strong {
-    	    background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat;
+    	    background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat;
     	}
     	button.buttonSmall span.green strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right top no-repeat;
     	}
     	button.buttonSmall span.blue strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right top no-repeat;
     	}
     	button.buttonSmall span.yellow strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right top no-repeat;
     	}
     	button.buttonSmall span.purple strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right top no-repeat;
     	}
     	button.buttonSmall span.orange strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right top no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right top no-repeat;
     	}
     	button.buttonSmall:hover span.gray strong {
-    	    background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right -22px no-repeat;
+    	    background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right -22px no-repeat;
     	}
     	button.buttonSmall:hover span.green strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right -22px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/green/green_small_comp_right.png) right -22px no-repeat;
     	}
     	button.buttonSmall:hover span.blue strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right -22px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/blue/blue_small_comp_right.png) right -22px no-repeat;
     	}
     	button.buttonSmall:hover span.yellow strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right -22px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/yellow/yellow_small_comp_right.png) right -22px no-repeat;
     	}
     	button.buttonSmall:hover span.purple strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right -22px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/purple/purple_small_comp_right.png) right -22px no-repeat;
     	}
     	button.buttonSmall:hover span.orange strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right -22px no-repeat;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/orange/orange_small_comp_right.png) right -22px no-repeat;
     	}
     button.buttonSmall span.disabled {
         color: #afb4b4 !important;
-    	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+    	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
     	cursor: default !important;
     }
     button.buttonSmall:hover span.disabled {
         color: #afb4b4 !important;
-    	background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
+    	background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_left.png) left top no-repeat !important;
     	cursor: default !important;
     }
         button.buttonSmall span.disabled strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
     	}
     	button.buttonSmall:hover span.disabled strong {
-    	    background: #F0F0F0 url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
+    	    background: #F0F0F0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/gray/gray_small_comp_right.png) right top no-repeat !important;
     	}
 /* FF specific line-height fix */
 @-moz-document url-prefix() {
@@ -1581,7 +1581,7 @@ p.center {
 	text-align: center;
 }
 .graphicalSteps {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/graphical_steps.png) no-repeat 23px bottom;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/graphical_steps.png) no-repeat 23px bottom;
 	padding-left: 35px;
 }
 
@@ -1654,85 +1654,85 @@ p.center {
 
 h2.step1,
 p.step1 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_1.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_1.png);
 }
 h2.step2,
 p.step2 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_2.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_2.png);
 }
 h2.step3,
 p.step3 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_3.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_3.png);
 }
 h2.step4,
 p.step4 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_4.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_4.png);
 }
 h2.step5,
 p.step5 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_5.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_5.png);
 }
 h2.step6,
 pstep6 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_6.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_6.png);
 }
 h2.step7,
 p.step7 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_7.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_7.png);
 }
 h2.step8,
 p.step8 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_8.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_8.png);
 }
 h2.step9,
 p.step9 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_9.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_9.png);
 }
 h2.step10,
 p.step10 {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_10.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_10.png);
 }
 div.graphicalSteps.skypeToGo p.bottomMargin {
 	margin-bottom:5px;
 }
 h2.step1Disabled {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_1.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_1.png);
 	color: #959595;
 }
 h2.step2Disabled {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_2.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_2.png);
 	color: #959595;
 }
 h2.step3Disabled {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_3.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_3.png);
 	color: #959595;                                    
 }                                                      
 h2.step4Disabled {                                    
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_4.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_4.png);
 	color: #959595;                                    
 }                                                      
 h2.step5Disabled {                                    
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_5.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_5.png);
 	color: #959595;                                    
 }                                                      
 h2.step6Disabled {                                    
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_6.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_6.png);
 	color: #959595;                                    
 }                                                      
 h2.step7Disabled {                                    
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_7.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_7.png);
 	color: #959595;                                    
 }                                                      
 h2.step8Disabled {                                    
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_8.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_8.png);
 	color: #959595;                                    
 }                                                      
 h2.step9Disabled {                                    
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_9.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_9.png);
 	color: #959595;                                    
 }
 h2.step10Disabled {
-	background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_10.png);
+	background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_10.png);
 	color: #959595;
 }
 #content div.contentbox div.boxheading {
@@ -1790,7 +1790,7 @@ h2.step10Disabled {
 
 #content #infoBox {
 	margin: 10px 0 0 10px;
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/yellow_blue_bottombox_bg.png) -462px 0px repeat-y;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/yellow_blue_bottombox_bg.png) -462px 0px repeat-y;
 }
 
 #content #infoBox p {
@@ -1839,12 +1839,12 @@ h2.step10Disabled {
 }
 
 #content .upSellBox {
-    background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/upsell_box.png) no-repeat bottom left;
+    background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/upsell_box.png) no-repeat bottom left;
     overflow: hidden;
     zoom: 1;
 }
 #content .upSellBoxYellow {
-    background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/upsell_box_yellow.png) no-repeat bottom left;
+    background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/upsell_box_yellow.png) no-repeat bottom left;
     overflow: hidden;
     zoom: 1;
 }
@@ -1906,24 +1906,24 @@ p.error {
 	border-top: 1px solid #f08a73;
 	border-bottom: 1px solid #f08a73;
 	color: #525252;
-	background: #ffe3df url(/web/20090305095506im_/http://c.skype.com/i/images/icons/message_error.png) no-repeat 20px center;
+	background: #ffe3df url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/message_error.png) no-repeat 20px center;
 }
 p.info {
 	border-top: 1px solid #aee756;
 	border-bottom: 1px solid #aee756;
 	color: #525252;
 	font-weight: bold;
-	background: #e9fad0 url(/web/20090305095506im_/http://c.skype.com/i/images/icons/message_info.png) no-repeat 20px center;
+	background: #e9fad0 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/message_info.png) no-repeat 20px center;
 }
 p.warning {
 	border-top: 1px solid #FFCA0B;
 	border-bottom: 1px solid #FFCA0B;
 	color: #525252;
 	font-weight: bold;
-	background: #FFEFB5 url(/web/20090305095506im_/http://c.skype.com/i/images/icons/warning_icon.png) no-repeat 20px center;
+	background: #FFEFB5 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/warning_icon.png) no-repeat 20px center;
 }
 p.smiley {
-    background: #FFF5CC url(/web/20090305095506im_/http://c.skype.com/i/images/icons/smiley_icon.png) no-repeat scroll 20px center;
+    background: #FFF5CC url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/smiley_icon.png) no-repeat scroll 20px center;
     border-bottom:1px solid #FFCD00;
     border-top:1px solid #FFCD00;
     color:#2C2C2C;
@@ -1969,7 +1969,7 @@ div.success {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	width: auto;
-	background: #E5F6FD url(/web/20090305095506im_/http://c.skype.com/i/images/icons/okay_48x48_lightblue.png) no-repeat 20px center;
+	background: #E5F6FD url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/okay_48x48_lightblue.png) no-repeat 20px center;
 }
 p.available {
 	color: #666666;
@@ -2012,7 +2012,7 @@ p.noEmergency {
     margin-top: 30px;
 }
 p.noEmergency.icon {
-    background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/noemergency.png) center left no-repeat;
+    background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/noemergency.png) center left no-repeat;
     padding-left: 50px !important;
     margin-left: 20px;
 }
@@ -2027,7 +2027,7 @@ p.noEmergency strong {
 #sidebarContent p.noEmergency {
     padding: 170px 0 0 0 !important;
     margin: 0 !important;
-    background: white url(/web/20090305095506im_/http://c.skype.com/i/images/icons/noemergency.png) 0 130px no-repeat !important;
+    background: white url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/noemergency.png) 0 130px no-repeat !important;
 }
 #sidebarContent p.noEmergency small {
 	color: #2c2c2c;
@@ -2040,12 +2040,12 @@ p.noEmergency strong {
 /* flowContainer */
 
 .flowContainerTop {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_top.png) no-repeat top left;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_top.png) no-repeat top left;
 	width: 960px;
 	margin-bottom: 0.93em;
 }
 .flowContainerBottom {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_bottom.png) no-repeat bottom left;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_bottom.png) no-repeat bottom left;
 	padding: 21px 21px 22px 21px;
 }
 
@@ -2054,7 +2054,7 @@ p.noEmergency strong {
 }
 .flowSubmit {
 	padding: 17px 20px 18px 20px;
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_submit.png);
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_submit.png);
 	overflow: hidden;
 }
 * html .flowContent,
@@ -2075,12 +2075,12 @@ p.noEmergency strong {
     /* width sidebar */
 
     #container.sidebar div.flowContainerTop {
-    	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_thin_top.png) no-repeat top left;
+    	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_thin_top.png) no-repeat top left;
     	width: 690px;
     	margin-bottom: 0.93em;
     }
     #container.sidebar div.flowContainerBottom {
-    	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_thin_bottom.png) no-repeat bottom left;
+    	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_thin_bottom.png) no-repeat bottom left;
     	padding: 5px 21px 22px 21px;
     }
 
@@ -2114,12 +2114,12 @@ p.noEmergency strong {
 	padding-right: 0;
 }
 p.simpleInfo {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16.png) no-repeat 10px 0;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16.png) no-repeat 10px 0;
 	padding-left: 34px !important;
 }
 .flowThin {
 	padding-bottom: 11px;
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flowthin_submit_shadow.png) bottom center repeat-x;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flowthin_submit_shadow.png) bottom center repeat-x;
 	zoom: 1;
 }
 
@@ -2150,7 +2150,7 @@ p.simpleInfo {
 
 .flowSubmitThin {
 	padding: 17px 20px 18px 20px;
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_submit.png);
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_container_submit.png);
 	border-left: 1px solid #cccccc;
 	border-right: 1px solid #cccccc;
 }
@@ -2161,11 +2161,11 @@ p.simpleInfo {
 
 .default p.simpleInfo,
 .fullWidth p.simpleInfo {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16.png) no-repeat 20px 0;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16.png) no-repeat 20px 0;
 	padding-left: 44px !important;
 }
 #content #paddedContent .flowContent p.simpleInfo {
-    background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16.png) no-repeat 10px 0;
+    background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16.png) no-repeat 10px 0;
     padding-left: 34px !important;
 }
 table.listTable {
@@ -2206,7 +2206,7 @@ tr.odd td {
 }
 tr.edit td.edit {
 	border-top: 1px solid #bfc4c4;
-	background: #fffb93 url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_edit.png) top left repeat-x;
+	background: #fffb93 url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/flow_edit.png) top left repeat-x;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -2276,7 +2276,7 @@ td.toBottom {
     margin: 0 auto;
     font-size: 0.79em;
     color: #525252;
-    background: url(/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16_yellow.png) no-repeat left 4px;
+    background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/icons/info_16x16_yellow.png) no-repeat left 4px;
     line-height: 16px;
 }
     #localSiteBar span {
@@ -2291,7 +2291,7 @@ td.toBottom {
         height: 16px;
         width: 16px;
         float: right;
-        background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/delete_small.png) no-repeat center center;
+        background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/delete_small.png) no-repeat center center;
         margin-top: 3px;
     }
 #content ul.steps li {
@@ -2301,31 +2301,31 @@ td.toBottom {
     height: 100%;
 }
     #content ul.steps li.step1 {
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_1_small.png) no-repeat 0 0;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_1_small.png) no-repeat 0 0;
     }
     #content ul.steps li.step2 {
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_2_small.png) no-repeat 0 0;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_2_small.png) no-repeat 0 0;
     }
     #content ul.steps li.step3 {
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_3_small.png) no-repeat 0 0;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_3_small.png) no-repeat 0 0;
     }
     #content ul.steps li.step4 {
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_4_small.png) no-repeat 0 0;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_4_small.png) no-repeat 0 0;
     }
     #content ul.steps li.step5 {
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_5_small.png) no-repeat 0 0;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_5_small.png) no-repeat 0 0;
     }
     #content ul.steps li.step6 {
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_6_small.png) no-repeat 0 0;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_6_small.png) no-repeat 0 0;
     }
     #content ul.steps li.step7 {
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_7_small.png) no-repeat 0 0;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_7_small.png) no-repeat 0 0;
     }
     #content ul.steps li.step8 {
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_8_small.png) no-repeat 0 0;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_8_small.png) no-repeat 0 0;
     }
     #content ul.steps li.step9 {
-        background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_9_small.png) no-repeat 0 0;
+        background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_9_small.png) no-repeat 0 0;
     }
 
 /* fancy tooltip */
@@ -2337,7 +2337,7 @@ td.toBottom {
     left: -100px;
 }
 #fancyTip .pointer {
-    background: transparent url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/tooltip-arrow.png) no-repeat 16px 0px;
+    background: transparent url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/tooltip-arrow.png) no-repeat 16px 0px;
     height: 16px;
     width: 50px;
     position: relative;
@@ -2405,7 +2405,7 @@ td.toBottom {
 	float: left;
 	width: 221px;
 	color: #0181e3;
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/grad_vline.png) center right no-repeat;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/grad_vline.png) center right no-repeat;
 }
 
 * html #sidebarContent div.sidebarButton {
@@ -2460,43 +2460,43 @@ td.toBottom {
 /* GREEN button background */
 
 #sidebarContent div.sidebarButton a.green {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/green_sidebar.png) 0px bottom no-repeat !important;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/green_sidebar.png) 0px bottom no-repeat !important;
 }
 
 #sidebarContent div.sidebarButton a.green:hover {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/green_sidebar.png) -221px bottom no-repeat !important;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/green_sidebar.png) -221px bottom no-repeat !important;
 }
 
 #sidebarContent div.sidebarButton a.green:active {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/green_sidebar.png) -442px bottom no-repeat !important;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/green_sidebar.png) -442px bottom no-repeat !important;
 }
 
 /* YELLOW button background */
 
 #sidebarContent div.sidebarButton a.yellow {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/yellow_sidebar.png) 0px bottom no-repeat !important;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/yellow_sidebar.png) 0px bottom no-repeat !important;
 }
 
 #sidebarContent div.sidebarButton a.yellow:hover {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/yellow_sidebar.png) -221px bottom no-repeat !important;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/yellow_sidebar.png) -221px bottom no-repeat !important;
 }
 
 #sidebarContent div.sidebarButton a.yellow:active {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/yellow_sidebar.png) -442px bottom no-repeat !important;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/yellow_sidebar.png) -442px bottom no-repeat !important;
 }
 
 /* BLUE button background */
 
 #sidebarContent div.sidebarButton a.blue {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/blue_sidebar.png) 0px bottom no-repeat !important;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/blue_sidebar.png) 0px bottom no-repeat !important;
 }
 
 #sidebarContent div.sidebarButton a.blue:hover {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/blue_sidebar.png) -221px bottom no-repeat !important;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/blue_sidebar.png) -221px bottom no-repeat !important;
 }
 
 #sidebarContent div.sidebarButton a.blue:active {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/blue_sidebar.png) -442px bottom no-repeat !important;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/buttons/sidebar/blue_sidebar.png) -442px bottom no-repeat !important;
 }
 
 #sidebar #sidebarContent ul {
@@ -2513,7 +2513,7 @@ td.toBottom {
 /* Header related styles */ 
 
 body {
-	background: white url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/top_gradient.png) top left repeat-x; /* TODO: Backgrounds on one larger image... */
+	background: white url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/top_gradient.png) top left repeat-x; /* TODO: Backgrounds on one larger image... */
 	position: relative;
 }
 
@@ -2580,7 +2580,7 @@ body {
 
 #footer {
 	height: 75px;
-	background: white url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/bottom_gradient.png) top left repeat-x;
+	background: white url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/bottom_gradient.png) top left repeat-x;
 	padding: 14px;
 	clear: both;
 	color: #AFB4B4;
@@ -2675,10 +2675,10 @@ body {
 			background: #f7d87f;
 		}
 		#mainNavigation li.active, #mainNavigation li.hover {
-			background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
+			background: #f7d87f url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
 		}
 		#mainNavigation li.active strong, #mainNavigation li.hover a {
-			background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) top right no-repeat;
+			background: #f7d87f url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) top right no-repeat;
 		}
 		#mainNavigation li.hover a {
 		    color: white;
@@ -2688,7 +2688,7 @@ body {
 	#mainNavigation ul.shopWithRibbon li#main-menu-shop {
 		border-left: 1px solid white;
 		border-right: 1px solid white;
-		background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navigation_blue_ribbon.png) no-repeat bottom right;
+		background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navigation_blue_ribbon.png) no-repeat bottom right;
 	}
 	    #mainNavigation ul.shopWithRibbon li#main-menu-shop a,
 	    #mainNavigation ul.shopWithRibbon li#main-menu-shop strong {
@@ -2697,13 +2697,13 @@ body {
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.active,
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.hover {
 		    border: none;
-			background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
+			background: #f7d87f url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left.png) top left no-repeat;
 	    }
 
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.active strong,
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.hover a {
     		padding: 8px 15px 4px 8px;
-			background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right_ribbon.png) top right no-repeat;
+			background: #f7d87f url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right_ribbon.png) top right no-repeat;
         }
 		#mainNavigation ul.shopWithRibbon li#main-menu-shop.active a {
 		    padding: 0;
@@ -2711,7 +2711,7 @@ body {
 
         /* Show gift icon on Shop tag */
     	#mainNavigation ul.shopWithGift li#main-menu-shop {
-    		background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navigation_blue_gift.png) no-repeat bottom left;
+    		background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navigation_blue_gift.png) no-repeat bottom left;
     		padding-left: 25px;
     	}
     	    #mainNavigation ul.shopWithGift li#main-menu-shop a,
@@ -2720,12 +2720,12 @@ body {
     	    }
     		#mainNavigation ul.shopWithGift li#main-menu-shop.active,
     		#mainNavigation ul.shopWithGift li#main-menu-shop.hover {
-              background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left_gift.png) no-repeat top left;
+              background: #f7d87f url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_left_gift.png) no-repeat top left;
     	    }
 
     		#mainNavigation ul.shopWithGift li#main-menu-shop.active strong,
     		#mainNavigation ul.shopWithGift li#main-menu-shop.hover a {
-/*              background: #f7d87f url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) no-repeat top right;*/
+/*              background: #f7d87f url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/navi_top_right.png) no-repeat top right;*/
             }
     		#mainNavigation ul.shopWithGift li#main-menu-shop.active a {
     		    padding: 0;
@@ -2744,7 +2744,7 @@ body {
 		float: left;
 		margin: 0 -25px 0 25px;
 		font-size: 1em;
-		background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/subnavi_back.png);
+		background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/subnavi_back.png);
 		padding: 7px 15px 5px 15px;
 		display: inline;
 		white-space: nowrap;
@@ -2774,7 +2774,7 @@ body {
     display: none;
 }
 #content .chevron {
-	background: url(/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/chevron.png) repeat-x center right;
+	background: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/backgrounds/chevron.png) repeat-x center right;
 	margin: 2px 16px 0 0 !important;
 	padding: 0 !important;
 	height: 16px;
@@ -2811,22 +2811,22 @@ body {
 		background-position: 4px 0px !important;
 	}
 	.chevron li.step1 {
-		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_1_small.png);
+		background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_1_small.png);
 	}
 	.chevron li.step1.current {
-		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_1_small.png);
+		background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_1_small.png);
 	}
 	.chevron li.step2 {
-		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_2_small.png);
+		background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_2_small.png);
 	}
 	.chevron li.step2.current {
-		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_2_small.png);
+		background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_2_small.png);
 	}
 	.chevron li.step3 {
-		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_3_small.png);
+		background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/grey_3_small.png);
 	}
 	.chevron li.step3.current {
-		background-image: url(/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_3_small.png);
+		background-image: url(https://web.archive.org/web/20090305095506im_/http://c.skype.com/i/images/bullets/blue_3_small.png);
 	}
 .naviSteps {
 	font-weight: bold;
