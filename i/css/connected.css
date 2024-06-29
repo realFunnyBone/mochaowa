@@ -1,0 +1,59 @@
+div #topSplash {
+	position: relative;
+	height: 306px;
+	margin: 0 auto 56px auto;
+	width: 960px;
+	background: url(/web/20081113234418im_/http://c.skype.com/i/images/photos/connected_hug.jpg) 340px 0px no-repeat;
+}
+
+div #splashContent {
+	padding: 30px 20px 20px;
+}
+
+.clouds {
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+
+div.indexBlue {
+	margin: 4px 0 0 0;
+	background-color: #00aff0;
+}
+
+div.indexBlue h1 {
+	color: #ffffff;
+	width: 280px;
+}
+
+#upgradeProBox {
+	width: 437px !important;
+}
+
+#buyCreditBox {
+	width: 230px !important;
+}
+
+#infoBox {
+	background: url(/web/20081113234418im_/http://c.skype.com/i/images/backgrounds/yellow_blue_bottombox_bg.png) -357px 0px repeat-y !important;
+}
+/*
+     FILE ARCHIVED ON 23:44:18 Nov 13, 2008 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:49:51 Jun 29, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.651
+  exclusion.robots: 0.198
+  exclusion.robots.policy: 0.189
+  esindex: 0.009
+  cdx.remote: 19.951
+  LoadShardBlock: 285.324 (3)
+  PetaboxLoader3.datanode: 164.396 (4)
+  PetaboxLoader3.resolve: 252.107 (2)
+  load_resource: 145.226
+*/
